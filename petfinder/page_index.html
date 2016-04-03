@@ -6,6 +6,7 @@
     
     <link rel="stylesheet" href="css/html5reset.css" media="all">   
     <link rel="stylesheet" href="css/styles.css" media="all"> 
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script type ="text/javascript" src="js/process.js"></script>
     
@@ -13,9 +14,18 @@
 
 <body>
 
+	<h1>Find hot pets in YOUR area!</h1>
+
 	<form method="POST" name="location" id="location">
 		<input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br>
 		<input type="submit" value="Submit" id="submit">
 	</form>
+    
+    <!-- Use this div for any outputs we have -->
+    
+    <div id="display"></div>
+    
+    <!-- -->
+    
 </body>
 </html>
