@@ -13,7 +13,7 @@ $(document).ready(function(){
 		if(zipcode.match(zipcodeRE)){
 			event.preventDefault();
 			
-			//calls the weather data
+			//calls the pet data
 			$.ajax({
 				type: "POST",
 				url: "includes/petget.php",
