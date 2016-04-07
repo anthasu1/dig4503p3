@@ -1,9 +1,6 @@
 <?php
 
 
-
-// http://api.petfinder.com/petfinderPetRecordList?key=c7452e442de15b804ecd198b0d96d57f&location=32407
-
 //Petfinder key: c7452e442de15b804ecd198b0d96d57f
 
 //http://api.petfinder.com/pet.find?key=c7452e442de15b804ecd198b0d96d57f&location=32407
@@ -11,11 +8,15 @@
 //http://api.petfinder.com/shelter.get?key=c7452e442de15b804ecd198b0d96d57f&id=FL668
 
 
-	$zipcode = intval($_POST['zipcode']);
+	$zipcode = $_POST['zipcode'];
+	$animal = $_POST['animal'];
+	$size = $_POST['size'];
+	$sex = $_POST['sex'];
+	$shelterid = "FL1397";
 	
-	//echo $zipcode;
+	//$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&location=". $zipcode."&animal=".$animal."&size=".$size."&sex=".$sex;
 	
-	$url = "http://api.petfinder.com/pet.find?key=c7452e442de15b804ecd198b0d96d57f&location=". $zipcode;
+	$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&shelterid=".$shelterid."&animal=".$animal."&size=".$size."&sex=".$sex;
 	$petXMLFile = $url; 
    	$petData = simplexml_load_file($petXMLFile);
 	
