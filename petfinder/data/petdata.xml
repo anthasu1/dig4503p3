@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+ <header>
+  <version>0.1</version>
+  <timestamp>2016-04-10T06:30:09Z</timestamp>
+  <status>
+   <code>100</code>
+   <message/>
+  </status>
+ </header>
+ <pet>
+  <id>34817239</id>
+  <shelterId>FL1397</shelterId>
+  <shelterPetId>31054887</shelterPetId>
+  <name>Abe</name>
+  <animal>Cat</animal>
+  <breeds>
+   <breed>Domestic Short Hair</breed>
+  </breeds>
+  <mix>no</mix>
+  <age>Young</age>
+  <sex>M</sex>
+  <size>S</size>
+  <options>
+   <option>altered</option>
+   <option>housetrained</option>
+  </options>
+  <description><![CDATA[Adopt me at the John Young PetSmart located at 8219 S John Young Parkway.]]></description>
+  <lastUpdate>2016-04-10T03:53:20Z</lastUpdate>
+  <status>A</status>
+  <media>
+   <photos>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34817239/1/?bust=1459729526&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34817239/1/?bust=1459729526&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34817239/1/?bust=1459729526&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34817239/1/?bust=1459729526&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34817239/1/?bust=1459729526&amp;width=50&amp;-t.jpg</photo>
+   </photos>
+  </media>
+  <contact>
+   <address1>2727 Conroy Road</address1>
+   <address2/>
+   <city>Orlando</city>
+   <state>FL</state>
+   <zip>32839</zip>
+   <phone>407-351-7722</phone>
+   <fax>407-352-2070</fax>
+   <email>info@petallianceorlando.org</email>
+  </contact>
+ </pet>
+</petfinder>

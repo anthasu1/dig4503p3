@@ -160,6 +160,10 @@ $(document).ready(function(){
 							//breed
 							age = $(xml).find("age").first().text();
 							sex = $(xml).find("sex").first().text();
+							
+							//photo
+							photo = $(xml).find("photo").first().text();
+							
 							if(sex === "M"){
 								sex = "Male";	
 							}
@@ -195,6 +199,14 @@ $(document).ready(function(){
 							description = $(xml).find("description").first().text();
 
 							//photo
+							
+							var photosrc;
+							
+							if (photo !== null) { photosrc = photo; }
+							
+							console.log(photosrc);
+							
+							$("#photoD").attr("src", photosrc);
   
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
