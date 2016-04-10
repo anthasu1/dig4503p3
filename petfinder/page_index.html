@@ -16,8 +16,9 @@
 
 	<h1>Find hot pets in YOUR area!</h1>
 
-	<form method="POST" name="location" id="location">
-		<input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br>
+	<form method="POST" name="pets" id="pets">
+    	<!-- <input type="text" id="name" placeholder="Nickname"><br> 
+		<input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br> -->
         <select name="animal" id="animal">
         	<option value="cat">Cats</option>
             <option value="dog">Dogs</option>
@@ -33,14 +34,26 @@
         <select name="sex" id="sex">
         	<option value="M">Male</option>
             <option value="F">Female</option>
-            <option value="both">No preference</option>
+            <option value="none">No preference</option>
         </select><br>
 		<input type="submit" value="Submit" id="submit">
 	</form>
     
     <!-- Use this div for any outputs we have -->
     
-    <div id="display"></div>
+    <div id="display">
+    
+    	<div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600"></div>
+    	
+    	<div id="nameD"></div>
+        <div id="animalD"></div>
+        <div id="breedD"></div>
+        <div id="ageD"></div>
+        <div id="sexD"></div>
+        <div id="sizeD"></div>
+        <div id="descriptionD"></div>
+    
+    </div>
     
     <!-- -->
     
