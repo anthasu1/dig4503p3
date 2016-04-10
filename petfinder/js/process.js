@@ -164,9 +164,11 @@ $(document).ready(function(){
 								sex = "Male";	
 							}
 							
-							else{
+							if(sex === "F"){
 								sex = "Female";	
 							}
+							
+							else{ sex = "no data"; }
 
 							size = $(xml).find("size").first().text();
 							if(size === "S"){
@@ -181,9 +183,11 @@ $(document).ready(function(){
 								size = "Large";	
 							}
 
-							else{
+							else if(size==="XL"){
 								size = "Extra Large";	
 							}
+							
+							else { size = "no data"; }
 
 							//option
 
