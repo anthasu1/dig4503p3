@@ -95,8 +95,6 @@ $(document).ready(function(){
 				shelter = "FL275";
 		}
 
-
-
 		var formData = {
 			'zipcode'	: $("#zip").val(),
 			'shelter'	: shelter,
@@ -162,7 +160,7 @@ $(document).ready(function(){
 							sex = $(xml).find("sex").first().text();
 							
 							//photo
-							photo = $(xml).find("photo").first().text();
+							photo = $(xml).find("photo[size=pn]").first().text();
 							
 							if(sex === "M"){
 								sex = "Male";	
@@ -202,7 +200,7 @@ $(document).ready(function(){
 							
 							var photosrc;
 							
-							if (photo !== null) { photosrc = photo; }
+							if (photo !== " ") { photosrc = photo; }
 							
 							console.log(photosrc);
 							
