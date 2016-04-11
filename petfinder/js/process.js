@@ -1,31 +1,30 @@
 // JavaScript Document
 
+	var petArray = [];
+	var counter = 0;
+
 $(document).ready(function(){
 	"use strict";
 
 	//to keep track of pets they have seen already,
-	var petArray = [];
-	var counter = 0;
+	//var petArray = [];
+	//var counter = 0;
 
-	//submitting zipcode
 	$("#pets").submit(function(event){
+		
+		var submitvalue;
+		submitvalue = $(document.activeElement).val();
 
+		
 		$("#loading").css("visibility","visible");
-		//var zipcode = $("#zip").val();
-		//var zipcodeRE = /\d{5}/;
-
-		//zipcode regex check
-		//if(zipcode.match(zipcodeRE)){
 		event.preventDefault();
 
 		//when selecting both, randomly choose either cat or dog
 		var animal = $("#animal").val();
-
 		if (animal === "both"){
 
 			//deciding cat or dog
-			var randNumAnimal = getRandomIntInclusive(0,1);
-			console.log(randNumAnimal);				
+			var randNumAnimal = getRandomIntInclusive(0,1);			
 
 			if (randNumAnimal === 1){
 				animal = "cat";
@@ -34,27 +33,24 @@ $(document).ready(function(){
 			else{
 				animal = "dog";	
 			}
-
 		}
 
 		var randNumShelter;
-		console.log(randNumShelter);
 		var shelter;
 
 		if (animal === "cat"){
 			//shelters w cats	
 			randNumShelter = getRandomIntInclusive(0, 6);
-			console.log(randNumShelter);
 		}
 
 		else {
 			//shelters w dogs
-			randNumShelter = getRandomIntInclusive(2, 8);
-			console.log(randNumShelter);	
+			randNumShelter = getRandomIntInclusive(2, 8);	
 		}
 
 		//setting shelterID
 		switch (randNumShelter) {
+			//0 - 1 cat shelters
 			case 0:
 				//It's All About Cats Inc.
 				shelter = "FL512";
@@ -63,6 +59,7 @@ $(document).ready(function(){
 				//Aristocats Inc.
 				shelter = "FL912";
 				break;
+			//2 - 6 shelters w cats and dogs	
 			case 2:
 				//Ruff World Animal Rescue
 				shelter = "FL887";
@@ -83,6 +80,7 @@ $(document).ready(function(){
 				//Pet Rescue By Judy
 				shelter = "FL189";
 				break;
+			//7 - 8 dogs only
 			case 7:
 				//LovevLoaves Sanctuary
 				shelter = "FL1171";
@@ -96,7 +94,6 @@ $(document).ready(function(){
 		}
 
 		var formData = {
-			'zipcode'	: $("#zip").val(),
 			'shelter'	: shelter,
 			'animal'	: animal,
 			'size'		: $("#size").val(),
@@ -104,10 +101,16 @@ $(document).ready(function(){
 		};
 
 		console.log(formData);
-
-		//sends and sets pet data
 		
-		$.ajax({
+		ajaxCalls(formData);
+
+
+		$("#yes").css("visibility", "visible");
+		$("#no").css("visibility", "visible");			
+			
+		//sends and sets pet data
+		//currently commented out in case there's an issue and i need to revert back
+	/*	$.ajax({
 			type: "POST",
 			url: "includes/petget.php",
 			data: formData,
@@ -121,10 +124,12 @@ $(document).ready(function(){
 					dataType: "xml",
 					success: function(xml){
 						$("#loading").css("visibility","hidden");
+						$("#breedD").empty();
+						$("#optionD").empty();
 						var error;
 
 						var petId;
-
+						
 						var name;
 						var animal;
 						var breed = [];
@@ -149,28 +154,32 @@ $(document).ready(function(){
 							petId = $(xml).find("id").first().text();
 							petArray[counter] = petId;
 							counter++;
-							console.log(petArray);
+							//console.log(petArray);
 
 
 							//displaying info
 							name = $(xml).find("name").first().text();
 							animal = $(xml).find("animal").first().text();
-							//breed
+							
+							var breedholder;
+							breedholder = $(xml).find("breed").each(function(index){
+								breed[index] = $(this).text();
+								index++;
+							});
+							
 							age = $(xml).find("age").first().text();
 							sex = $(xml).find("sex").first().text();
-							
-							//photo
-							photo = $(xml).find("photo[size=pn]").first().text();
-							
 							if(sex === "M"){
 								sex = "Male";	
 							}
-							
-							if(sex === "F"){
+						
+							else if(sex === "F"){
 								sex = "Female";	
 							}
 							
-							else{ sex = "no data"; }
+							else{ 
+								sex = "";
+							}
 
 							size = $(xml).find("size").first().text();
 							if(size === "S"){
@@ -185,22 +194,77 @@ $(document).ready(function(){
 								size = "Large";	
 							}
 
-							else if(size==="XL"){
+							else if(size ==="XL"){
 								size = "Extra Large";	
 							}
 							
-							else { size = "no data"; }
+							else {
+								size = " ";
+							}
+							
+							var optionholder;
+							optionholder = $(xml).find("option").each(function(index){
+								option[index] = $(this).text();
+								index++;
+							});
+							
+							var holder;
+							for( var optCount=0; optCount < option.length; optCount++){
+								
+								holder = option[optCount];
+								
+								switch (holder) {
+									
+									case "altered":
+										holder = "Spayed / Neutered";
+										option[optCount] = holder;
+										break;
+									case "noClaws":
+										holder = "No Claws";
+										option[optCount] = holder;
+										break;
+									case "hasShots":
+										holder = "Has Current Shots";
+										option[optCount] = holder;
+										break;
+									case "housebroken":
+										holder = "Housebroken";
+										option[optCount] = holder;
+										break;
+									case "noCats":
+										holder = "Not Good With Cats";
+										option[optCount] = holder;
+										break;
+									case "noDogs":
+										holder = "Not Good With Dogs";
+										option[optCount] = holder;
+										break;
+									case "noKids":
+										holder = "Not Good With Kids";
+										option[optCount] = holder;
+										break;
+									case "specialNeeds":
+										holder = "Has Special Needs";
+										option[optCount] = holder;
+										break;
+									default:
+										holder = " ";
+										option[optCount] = holder;
 
-							//option
-
+								}
+								
+							}
+							
+							
 							//need to check if this is empty	
 							description = $(xml).find("description").first().text();
 
-							//photo
-							
+							photo = $(xml).find("photo[size=pn]").first().text();
 							var photosrc;
 							
-							if (photo !== " ") { photosrc = photo; }
+							if (photo !== " ") {
+								photosrc = photo;
+								}
 							
 							console.log(photosrc);
 							
@@ -208,23 +272,328 @@ $(document).ready(function(){
   
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
-							//breed
+  
+							$("#nameD").html(name);
+							$("#animalD").html(animal);
+							
+							
+							var counttemp = $(breed).length;
+							for ( var i=0; i < counttemp; i++){
+									$("#breedD").append(breed[i]+"<br>");
+							}
+						
 							$("#ageD").html(age);
 							$("#sexD").html(sex);
 							$("#sizeD").html(size);
+							
+							var optiontemp = $(option).length;
+							for ( var o=0; o < optiontemp; o++){
+									$("#optionD").append(option[o]+"<br>");
+							}
+							
+							
 							$("#descriptionD").html(description);
   
+  
+							$.ajax({
+								type: "GET",
+								url: "data/shelterdata.xml",
+								dataType: "xml",
+								success: function(xml){
+									var lat;
+									var long;
+									
+									lat = $(xml).find("latitude").first().text();
+									long = $(xml).find("longitude").first().text();
+									
+									lat = parseFloat(lat);
+									long = parseFloat(long);
+									
+									//geocode the addresses, don't use lat long, they're bullshit
+									
+									initMap(lat,long);
+								}
+							});
+							
+							
+							//distance data
+							$.ajax({
+								type: "GET",
+								url: "data/distancedata.xml",
+								dataType: "xml",
+								success: function(xml){
+									var distance;
+									
+									distance = $(xml).find("text").eq(1).text();
+						
+									$("#distanceD").html("This animal is "+distance+" away!");
+
+								}
+							});
+							
 						}
 					}
 
 				});
 			}
 
-		});
+		});  */
+		console.log(petArray);
 	});
+	
 });
 
 function getRandomIntInclusive(min, max) {
 	"use strict";
 	return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function initMap(lat, long) {
+	"use strict";	
+	var map;									
+     map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: lat, lng: long},
+       	zoom: 15
+});
+
+	 var marker = new google.maps.Marker({
+   		position: {lat: lat, lng: long},
+    	map: map,
+    	title: 'Hello World!'
+  	});
+}
+
+
+function ajaxCalls(formData){
+	"use strict";
+	//var petId;
+	$.ajax({
+			type: "POST",
+			url: "includes/petget.php",
+			data: formData,
+			success: function(){
+				console.log("first ajax call success");
+
+				//get the pet data
+				$.ajax({
+					type: "GET",
+					url: "data/petdata.xml",
+					dataType: "xml",
+					success: function(xml){
+						$("#loading").css("visibility","hidden");
+						$("#breedD").empty();
+						$("#optionD").empty();
+						var error;
+
+						var petId;
+						
+						var name;
+						var animal;
+						var breed = [];
+						var age;
+						var sex;
+						var size;
+						var option = [];
+						var description;
+						var photo;
+
+						//checking if xml had any errors
+						error = $(xml).find("code").first().text();
+						if(error !== "100"){
+							$("#error").html("There appears to be an error, sorry!");
+						}
+
+						//if not, then this
+						else{
+							console.log("2nd ajax success!");
+
+							//petIds for the session are put into an array, this will be accessed later when users wish to see which pets they have liked
+							petId = $(xml).find("id").first().text();
+							petArray[counter] = petId;
+							counter++;
+							//console.log(petArray);
+
+
+							//displaying info
+							name = $(xml).find("name").first().text();
+							animal = $(xml).find("animal").first().text();
+							
+							var breedholder;
+							breedholder = $(xml).find("breed").each(function(index){
+								breed[index] = $(this).text();
+								index++;
+							});
+							
+							age = $(xml).find("age").first().text();
+							sex = $(xml).find("sex").first().text();
+							if(sex === "M"){
+								sex = "Male";	
+							}
+						
+							else if(sex === "F"){
+								sex = "Female";	
+							}
+							
+							else{ 
+								sex = "";
+							}
+
+							size = $(xml).find("size").first().text();
+							if(size === "S"){
+								size = "Small";	
+							}
+
+							else if(size === "M"){
+								size = "Medium";	
+							}
+
+							else if(size === "L"){
+								size = "Large";	
+							}
+
+							else if(size ==="XL"){
+								size = "Extra Large";	
+							}
+							
+							else {
+								size = " ";
+							}
+							
+							var optionholder;
+							optionholder = $(xml).find("option").each(function(index){
+								option[index] = $(this).text();
+								index++;
+							});
+							
+							var holder;
+							for( var optCount=0; optCount < option.length; optCount++){
+								
+								holder = option[optCount];
+								
+								switch (holder) {
+									
+									case "altered":
+										holder = "Spayed / Neutered";
+										option[optCount] = holder;
+										break;
+									case "noClaws":
+										holder = "No Claws";
+										option[optCount] = holder;
+										break;
+									case "hasShots":
+										holder = "Has Current Shots";
+										option[optCount] = holder;
+										break;
+									case "housebroken":
+										holder = "Housebroken";
+										option[optCount] = holder;
+										break;
+									case "noCats":
+										holder = "Not Good With Cats";
+										option[optCount] = holder;
+										break;
+									case "noDogs":
+										holder = "Not Good With Dogs";
+										option[optCount] = holder;
+										break;
+									case "noKids":
+										holder = "Not Good With Kids";
+										option[optCount] = holder;
+										break;
+									case "specialNeeds":
+										holder = "Has Special Needs";
+										option[optCount] = holder;
+										break;
+									default:
+										holder = " ";
+										option[optCount] = holder;
+
+								}
+								
+							}
+							
+							
+							//need to check if this is empty	
+							description = $(xml).find("description").first().text();
+
+							photo = $(xml).find("photo[size=pn]").first().text();
+							var photosrc;
+							
+							if (photo !== " ") {
+								photosrc = photo;
+								}
+							
+							//console.log(photosrc);
+							
+							$("#photoD").attr("src", photosrc);
+  
+							$("#nameD").html(name);
+							$("#animalD").html(animal);
+  
+							$("#nameD").html(name);
+							$("#animalD").html(animal);
+							
+							
+							var counttemp = $(breed).length;
+							for ( var i=0; i < counttemp; i++){
+									$("#breedD").append(breed[i]+"<br>");
+							}
+						
+							$("#ageD").html(age);
+							$("#sexD").html(sex);
+							$("#sizeD").html(size);
+							
+							var optiontemp = $(option).length;
+							for ( var o=0; o < optiontemp; o++){
+									$("#optionD").append(option[o]+"<br>");
+							}
+							
+							
+							$("#descriptionD").html(description);
+  
+  
+							$.ajax({
+								type: "GET",
+								url: "data/shelterdata.xml",
+								dataType: "xml",
+								success: function(xml){
+									var lat;
+									var long;
+									
+									lat = $(xml).find("latitude").first().text();
+									long = $(xml).find("longitude").first().text();
+									
+									lat = parseFloat(lat);
+									long = parseFloat(long);
+									
+									//geocode the addresses, don't use lat long, they're bullshit
+									
+									initMap(lat,long);
+								}
+							});
+							
+							
+							//distance data
+							$.ajax({
+								type: "GET",
+								url: "data/distancedata.xml",
+								dataType: "xml",
+								success: function(xml){
+									var distance;
+									
+									distance = $(xml).find("text").eq(1).text();
+						
+									$("#distanceD").html("This animal is "+distance+" away!");
+
+								}
+							});
+							
+						}
+					}
+
+				});
+			}
+
+		}); 
+		
+} 

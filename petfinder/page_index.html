@@ -9,6 +9,7 @@
     
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script type ="text/javascript" src="js/process.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ" async defer></script>
     
 </head>
 
@@ -37,6 +38,9 @@
             <option value="none">No preference</option>
         </select><br>
 		<input type="submit" value="Submit" id="submit">
+        <input type="submit" value="YES" id="yes">
+        <input type="submit" value="NO" id="no">
+        
 	</form>
     
     <!-- Use this div for any outputs we have -->
@@ -44,17 +48,19 @@
     <div id="display">
     
     	<div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600"></div>
-    	
-		<img id="photoD" >
-
-    	<div id="nameD"></div>
-        <div id="animalD"></div>
-        <div id="breedD"></div>
-        <div id="ageD"></div>
-        <div id="sexD"></div>
-        <div id="sizeD"></div>
-        <div id="descriptionD"></div>
-    
+        <div id="data">
+    		<div id="nameD"></div>
+        	<div id="animalD"></div>
+        	<div id="breedD"></div>
+        	<div id="ageD"></div>
+        	<div id="sexD"></div>
+        	<div id="sizeD"></div>
+            <div id="optionD"></div>
+        	<div id="descriptionD"></div>
+            <img id="photoD">
+            <div id="distanceD"></div>
+            <div id="map"></div>
+    	</div>
     </div>
     
     <!-- -->

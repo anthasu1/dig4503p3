@@ -5,3 +5,14 @@
 	text-align: center;
 	visibility:hidden;
 }
+
+#map { height: 500px;
+		width: 500px; }
+		
+#yes{
+	visibility: hidden;
+}
+
+#no{
+	visibility: hidden;
+}

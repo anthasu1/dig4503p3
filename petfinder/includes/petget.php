@@ -46,7 +46,39 @@
     		//store them locally as xml
     		$petData->asXML("../data/petdata.xml");
 			$xmlFile = "../data/petdata.xml";
+			$xml = simplexml_load_file($xmlFile);
 		}
 
+	
+	$shelterURL = "http://api.petfinder.com/shelter.get?key=c7452e442de15b804ecd198b0d96d57f&id=".$shelterid;
+	$shelterXMLFile = $shelterURL;
+	$shelterData = simplexml_load_file($shelterXMLFile);
+	
+	$shelterData->asXML("../data/shelterdata.xml");
+	$shelterxmlFile = "../data/shelterdata.xml";
+	
+	$shelterxml = simplexml_load_file($shelterXMLFile);
+	
+	
+	$address = $shelterxml->shelter[0]->address1;
+	$city = $shelterxml->shelter[0]->city;
+	$state = $shelterxml->shelter[0]->state;
+	
+	if((bool) $address){
+		$distanceURL = "https://maps.googleapis.com/maps/api/distancematrix/xml?origins=Orlando&destinations=".$address.$city.$state."&language=en&units=imperial&key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ";
+	}
+	
+	else{
+		$lat = 	$shelterxml->shelter[0]->latitude;
+		$long = $shelterxml->shelter[0]->longitude;
+		$distanceURL = "https://maps.googleapis.com/maps/api/distancematrix/xml?origins=Orlando&destinations=".$lat.",".$long."&language=en&units=imperial&key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ";
+	}
+	
+	
+	$distanceXMLFile = $distanceURL;
+	$distanceData = simplexml_load_file($distanceXMLFile);
+	
+	$distanceData->asXML("../data/distancedata.xml");
+	
 
 ?>
