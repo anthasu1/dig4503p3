@@ -6,6 +6,10 @@
 $(document).ready(function(){
 	"use strict";
 
+	$(".close").click(function(){
+		console.log("clicked");
+	}); 
+
 	$("#hideNseek").click(function(){
 		
 		$("#animalData").toggle();
@@ -437,6 +441,9 @@ function likedPet(){
 	var likedemail = $("#shelterEmail").text();
 	var likedphone = $("#shelterPhone").text();
 	
+	var newWrapperDiv = document.createElement("div");
+	newWrapperDiv.className = "accordwrap";
+	
 	var newAccordionDiv = document.createElement("div");
 	newAccordionDiv.className = "accordion";
 	newAccordionDiv.innerHTML = likedname;
@@ -449,12 +456,21 @@ function likedPet(){
 	var newAccordionShelterInfo = document.createElement("div");
 	newAccordionShelterInfo.className = "likedShelter";
 	
+	var closebtn = document.createElement("button");
+	closebtn.className = "close";
+	closebtn.innerHTML = "x";
+	closebtn.setAttribute("onclick", "this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode);");
+	
 	newAccordionPetInfo.innerHTML = "<p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p><img class = 'accordionimage' src='"+likedphoto+"'>";
 	
 	newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";
 	
+	newAccordionPetInfo.appendChild(closebtn);
 	newAccordionContent.appendChild(newAccordionPetInfo);
 	newAccordionContent.appendChild(newAccordionShelterInfo);
 					
-	$("#liked").append(newAccordionDiv, newAccordionContent);
+	newWrapperDiv.appendChild(newAccordionDiv);
+	newWrapperDiv.appendChild(newAccordionContent);
+					
+	$("#liked").append(newWrapperDiv);
 }
