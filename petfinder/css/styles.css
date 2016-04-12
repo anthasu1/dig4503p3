@@ -53,6 +53,18 @@ h3{
 	
 }
 
+#yes{
+	display: none;
+}
+
+#no{
+	display: none;
+}
+
+#hideNseek{
+	visibility: hidden;	
+}
+
 #map {  width: 300px;
 		height: 300px;
 		float: left; }
@@ -130,3 +142,4 @@ div.panel {
 
 div.panel.show {
     display: block !important;
+}
