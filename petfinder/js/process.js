@@ -31,6 +31,8 @@ $(document).ready(function(){
 		var submitvalue;
 		submitvalue = $(document.activeElement).val();
 		console.log(submitvalue);
+
+		$("body").css("background-image", "none");
 		
 		if($("#liked").css("display") === "block"){
 			$("#liked").css("display", "none");	
@@ -138,16 +140,17 @@ $(document).ready(function(){
 			'animal'	: animal,
 			'size'		: $("#size").val(),
 			'sex'		: $("#sex").val(),
+			'petarray'	: petArray
 		};
 
 		console.log(formData);
 		
 		ajaxCalls(formData);
 
-
+/*
 		$("#yes").css("visibility", "visible");
 		$("#no").css("visibility", "visible");
-		
+	*/	
 		
 		console.log(petArray);
 		
@@ -183,7 +186,10 @@ function ajaxCalls(formData){
 			type: "POST",
 			url: "includes/petget.php",
 			data: formData,
-			success: function(){
+			dataType: "text",
+			success: function(result){
+				console.log("php var"+result);
+				
 				console.log("first ajax call success");
 	
 				//get the pet data
@@ -195,6 +201,10 @@ function ajaxCalls(formData){
 						console.log("second ajax code");
 						$("#loading").css("visibility","hidden");
 						$("#animalData").css("visibility", "visible");
+						
+						$("#yes").css("visibility", "visible");
+						$("#no").css("visibility", "visible");
+						
 						$("#breedD").empty();
 						$("#optionD").empty();
 						var error;
@@ -318,10 +328,11 @@ function ajaxCalls(formData){
 										holder = "Has Special Needs";
 										option[optCount] = holder;
 										break;
-									default:
-										holder = " ";
+									case "housetrained":
+										holder = "Housetrained";
 										option[optCount] = holder;
-
+										break;	
+									
 								}
 								
 							}
@@ -343,10 +354,10 @@ function ajaxCalls(formData){
   
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
-  
+  /*
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
-							
+	*/						
 							
 							var counttemp = $(breed).length;
 							for ( var i=0; i < counttemp; i++){

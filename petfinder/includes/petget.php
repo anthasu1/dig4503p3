@@ -8,7 +8,6 @@
 //http://api.petfinder.com/shelter.get?key=c7452e442de15b804ecd198b0d96d57f&id=FL668
 
 
-	//$zipcode = $_POST['zipcode'];
 	$animal = $_POST['animal'];
 	$size = $_POST['size'];
 	$sex = $_POST['sex'];
@@ -80,5 +79,8 @@
 	
 	$distanceData->asXML("../data/distancedata.xml");
 	
-
+	$result = "true";
+	
+	print $result;
+	
 ?>
