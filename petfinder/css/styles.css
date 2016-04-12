@@ -77,7 +77,8 @@ h3{
        float: left; 
 	   padding: 2%;
 	   background-color: rgba(80,197,183,0.7);
-	   color: #FFFFFF;}
+	   color: #FFFFFF;
+	   }
 
 #images{ width: 50%; 
          float: left; 
@@ -91,6 +92,12 @@ h3{
             float: left; 
 			min-width: 300px;
 			}
+			
+#nameD{
+		font-family: 'Nunito', sans-serif;
+		font-size: 24px;
+		color: #533a71;
+}
 			
 #info { 
 		dislay: block;
