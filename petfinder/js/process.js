@@ -6,17 +6,42 @@
 $(document).ready(function(){
 	"use strict";
 
-	//to keep track of pets they have seen already,
-	//var petArray = [];
-	//var counter = 0;
+	$("#hideNseek").click(function(){
+		$("#animalData").toggle();
+		$("#liked").toggle();
+		$("#yes").toggle();
+		$("#no").toggle();
+	});
 
 	$("#pets").submit(function(event){
-		
+		event.preventDefault();
 		var submitvalue;
 		submitvalue = $(document.activeElement).val();
+		console.log(submitvalue);
+		
+		if($("#liked").css("display") === "block"){
+			$("#liked").css("display", "none");	
+		}
+		
+		if($("#animalData").css("display") === "none"){
+			$("#animalData").css("display", "block");	
+		}
+		
+		if (submitvalue === "YES"){
+			likedPet();
+			var acc = document.getElementsByClassName("accordion");
+			var i;
 
+			for (i = 0; i < acc.length; i++) {
+    			acc[i].onclick = function(){
+        			this.classList.toggle("active");
+        			this.nextElementSibling.classList.toggle("show");
+  				};
+			}
+		}
 		
 		$("#loading").css("visibility","visible");
+		$("#animalData").css("visibility", "hidden");
 		event.preventDefault();
 
 		//when selecting both, randomly choose either cat or dog
@@ -105,240 +130,16 @@ $(document).ready(function(){
 		ajaxCalls(formData);
 
 
-		$("#yes").css("visibility", "visible");
-		$("#no").css("visibility", "visible");			
-			
-		//sends and sets pet data
-		//currently commented out in case there's an issue and i need to revert back
-	/*	$.ajax({
-			type: "POST",
-			url: "includes/petget.php",
-			data: formData,
-			success: function(){
-				console.log("first ajax call success");
-
-				//get the pet data
-				$.ajax({
-					type: "GET",
-					url: "data/petdata.xml",
-					dataType: "xml",
-					success: function(xml){
-						$("#loading").css("visibility","hidden");
-						$("#breedD").empty();
-						$("#optionD").empty();
-						var error;
-
-						var petId;
-						
-						var name;
-						var animal;
-						var breed = [];
-						var age;
-						var sex;
-						var size;
-						var option = [];
-						var description;
-						var photo;
-
-						//checking if xml had any errors
-						error = $(xml).find("code").first().text();
-						if(error !== "100"){
-							$("#error").html("There appears to be an error, sorry!");
-						}
-
-						//if not, then this
-						else{
-							console.log("2nd ajax success!");
-
-							//petIds for the session are put into an array, this will be accessed later when users wish to see which pets they have liked
-							petId = $(xml).find("id").first().text();
-							petArray[counter] = petId;
-							counter++;
-							//console.log(petArray);
-
-
-							//displaying info
-							name = $(xml).find("name").first().text();
-							animal = $(xml).find("animal").first().text();
-							
-							var breedholder;
-							breedholder = $(xml).find("breed").each(function(index){
-								breed[index] = $(this).text();
-								index++;
-							});
-							
-							age = $(xml).find("age").first().text();
-							sex = $(xml).find("sex").first().text();
-							if(sex === "M"){
-								sex = "Male";	
-							}
-						
-							else if(sex === "F"){
-								sex = "Female";	
-							}
-							
-							else{ 
-								sex = "";
-							}
-
-							size = $(xml).find("size").first().text();
-							if(size === "S"){
-								size = "Small";	
-							}
-
-							else if(size === "M"){
-								size = "Medium";	
-							}
-
-							else if(size === "L"){
-								size = "Large";	
-							}
-
-							else if(size ==="XL"){
-								size = "Extra Large";	
-							}
-							
-							else {
-								size = " ";
-							}
-							
-							var optionholder;
-							optionholder = $(xml).find("option").each(function(index){
-								option[index] = $(this).text();
-								index++;
-							});
-							
-							var holder;
-							for( var optCount=0; optCount < option.length; optCount++){
-								
-								holder = option[optCount];
-								
-								switch (holder) {
-									
-									case "altered":
-										holder = "Spayed / Neutered";
-										option[optCount] = holder;
-										break;
-									case "noClaws":
-										holder = "No Claws";
-										option[optCount] = holder;
-										break;
-									case "hasShots":
-										holder = "Has Current Shots";
-										option[optCount] = holder;
-										break;
-									case "housebroken":
-										holder = "Housebroken";
-										option[optCount] = holder;
-										break;
-									case "noCats":
-										holder = "Not Good With Cats";
-										option[optCount] = holder;
-										break;
-									case "noDogs":
-										holder = "Not Good With Dogs";
-										option[optCount] = holder;
-										break;
-									case "noKids":
-										holder = "Not Good With Kids";
-										option[optCount] = holder;
-										break;
-									case "specialNeeds":
-										holder = "Has Special Needs";
-										option[optCount] = holder;
-										break;
-									default:
-										holder = " ";
-										option[optCount] = holder;
-
-								}
-								
-							}
-							
-							
-							//need to check if this is empty	
-							description = $(xml).find("description").first().text();
-
-							photo = $(xml).find("photo[size=pn]").first().text();
-							var photosrc;
-							
-							if (photo !== " ") {
-								photosrc = photo;
-								}
-							
-							console.log(photosrc);
-							
-							$("#photoD").attr("src", photosrc);
-  
-							$("#nameD").html(name);
-							$("#animalD").html(animal);
-  
-							$("#nameD").html(name);
-							$("#animalD").html(animal);
-							
-							
-							var counttemp = $(breed).length;
-							for ( var i=0; i < counttemp; i++){
-									$("#breedD").append(breed[i]+"<br>");
-							}
-						
-							$("#ageD").html(age);
-							$("#sexD").html(sex);
-							$("#sizeD").html(size);
-							
-							var optiontemp = $(option).length;
-							for ( var o=0; o < optiontemp; o++){
-									$("#optionD").append(option[o]+"<br>");
-							}
-							
-							
-							$("#descriptionD").html(description);
-  
-  
-							$.ajax({
-								type: "GET",
-								url: "data/shelterdata.xml",
-								dataType: "xml",
-								success: function(xml){
-									var lat;
-									var long;
-									
-									lat = $(xml).find("latitude").first().text();
-									long = $(xml).find("longitude").first().text();
-									
-									lat = parseFloat(lat);
-									long = parseFloat(long);
-									
-									//geocode the addresses, don't use lat long, they're bullshit
-									
-									initMap(lat,long);
-								}
-							});
-							
-							
-							//distance data
-							$.ajax({
-								type: "GET",
-								url: "data/distancedata.xml",
-								dataType: "xml",
-								success: function(xml){
-									var distance;
-									
-									distance = $(xml).find("text").eq(1).text();
-						
-									$("#distanceD").html("This animal is "+distance+" away!");
-
-								}
-							});
-							
-						}
-					}
-
-				});
-			}
-
-		});  */
+		$("#yes").css("display", "block");
+		$("#no").css("display", "block");
+		$("#hideNseek").css("visibility", "visible");
+		
+		if($("#yes").css("display") === "none"){
+			$("#yes").css("display", "block");	
+		}
+		
 		console.log(petArray);
+		
 	});
 	
 });
@@ -373,14 +174,16 @@ function ajaxCalls(formData){
 			data: formData,
 			success: function(){
 				console.log("first ajax call success");
-
+	
 				//get the pet data
 				$.ajax({
 					type: "GET",
 					url: "data/petdata.xml",
 					dataType: "xml",
 					success: function(xml){
+						console.log("second ajax code");
 						$("#loading").css("visibility","hidden");
+						$("#animalData").css("visibility", "visible");
 						$("#breedD").empty();
 						$("#optionD").empty();
 						var error;
@@ -521,7 +324,7 @@ function ajaxCalls(formData){
 							
 							if (photo !== " ") {
 								photosrc = photo;
-								}
+							}
 							
 							//console.log(photosrc);
 							
@@ -536,7 +339,7 @@ function ajaxCalls(formData){
 							
 							var counttemp = $(breed).length;
 							for ( var i=0; i < counttemp; i++){
-									$("#breedD").append(breed[i]+"<br>");
+									$("#breedD").append("<li>"+breed[i]+"</li>");
 							}
 						
 							$("#ageD").html(age);
@@ -545,13 +348,16 @@ function ajaxCalls(formData){
 							
 							var optiontemp = $(option).length;
 							for ( var o=0; o < optiontemp; o++){
-									$("#optionD").append(option[o]+"<br>");
+									$("#optionD").append("<li>"+option[o]+"</li>");
 							}
 							
 							
 							$("#descriptionD").html(description);
-  
-  
+							
+
+						}
+  					
+							//shelter data
 							$.ajax({
 								type: "GET",
 								url: "data/shelterdata.xml",
@@ -559,6 +365,18 @@ function ajaxCalls(formData){
 								success: function(xml){
 									var lat;
 									var long;
+									
+									var shelter;
+									var shelteremail;
+									var shelterphone;
+									
+									shelter = $(xml).find("name").first().text();
+									shelteremail = $(xml).find("email").first().text();
+									shelterphone = $(xml).find("phone").first().text();
+									
+									$("#shelterName").html(shelter);
+									$("#shelterEmail").html(shelteremail);
+									$("#shelterPhone").html(shelterphone);
 									
 									lat = $(xml).find("latitude").first().text();
 									long = $(xml).find("longitude").first().text();
@@ -587,13 +405,49 @@ function ajaxCalls(formData){
 
 								}
 							});
-							
-						}
 					}
-
 				});
+				
 			}
+	});					
+}	
 
-		}); 
+function likedPet(){
+	"use strict";
+	
+	var likedname = $("#nameD").text();
 		
-} 
+	var likedanimal = $("#animalD").text();	
+	var likedbreed = $("#breedD").html();
+	var likedage = $("#ageD").text();
+	var likedsex = $("#sexD").text();
+	var likedsize = $("#sizeD").text();
+	var likedoption = $("#optionD").html();
+	var likeddescription = $("#descriptionD").text();
+	var likedphoto = $("#photoD").attr("src");
+	
+	var likedshelter = $("#shelterName").text();
+	var likedemail = $("#shelterEmail").text();
+	var likedphone = $("#shelterPhone").text();
+	
+	var newAccordionDiv = document.createElement("div");
+	newAccordionDiv.className = "accordion";
+	newAccordionDiv.innerHTML = likedname;
+	var newAccordionContent = document.createElement("div");
+	newAccordionContent.className = "panel";
+	
+	var newAccordionPetInfo = document.createElement("div");
+	newAccordionPetInfo.className = "likedInfo";
+	
+	var newAccordionShelterInfo = document.createElement("div");
+	newAccordionShelterInfo.className = "likedShelter";
+	
+	newAccordionPetInfo.innerHTML = "<p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p><img class = 'accordionimage' src='"+likedphoto+"'>";
+	
+	newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";
+	
+	newAccordionContent.appendChild(newAccordionPetInfo);
+	newAccordionContent.appendChild(newAccordionShelterInfo);
+					
+	$("#liked").append(newAccordionDiv, newAccordionContent);
+}

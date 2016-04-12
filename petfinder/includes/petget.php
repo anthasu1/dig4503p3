@@ -65,7 +65,7 @@
 	$state = $shelterxml->shelter[0]->state;
 	
 	if((bool) $address){
-		$distanceURL = "https://maps.googleapis.com/maps/api/distancematrix/xml?origins=Orlando&destinations=".$address.$city.$state."&language=en&units=imperial&key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ";
+		$distanceURL = "https://maps.googleapis.com/maps/api/distancematrix/xml?origins=445 S Magnolia Ave+Orlando+FL&destinations=".$address.$city.$state."&language=en&units=imperial&key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ";
 	}
 	
 	else{
