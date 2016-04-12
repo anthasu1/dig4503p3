@@ -7,10 +7,19 @@ $(document).ready(function(){
 	"use strict";
 
 	$("#hideNseek").click(function(){
+		
 		$("#animalData").toggle();
 		$("#liked").toggle();
-		$("#yes").toggle();
-		$("#no").toggle();
+		
+		if($("#yes").css("visibility") === "hidden"){
+			$("#yes").css("visibility", "visible");
+			$("#no").css("visibility", "visible");
+		}
+		
+		else{ 
+			$("#yes").css("visibility", "hidden");
+			$("#no").css("visibility", "hidden");
+		}
 	});
 
 	$("#pets").submit(function(event){
@@ -38,6 +47,8 @@ $(document).ready(function(){
         			this.nextElementSibling.classList.toggle("show");
   				};
 			}
+			
+			$("#hideNseek").css("visibility", "visible");
 		}
 		
 		$("#loading").css("visibility","visible");
@@ -130,13 +141,9 @@ $(document).ready(function(){
 		ajaxCalls(formData);
 
 
-		$("#yes").css("display", "block");
-		$("#no").css("display", "block");
-		$("#hideNseek").css("visibility", "visible");
+		$("#yes").css("visibility", "visible");
+		$("#no").css("visibility", "visible");
 		
-		if($("#yes").css("display") === "none"){
-			$("#yes").css("display", "block");	
-		}
 		
 		console.log(petArray);
 		

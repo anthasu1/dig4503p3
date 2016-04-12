@@ -54,11 +54,11 @@ h3{
 }
 
 #yes{
-	display: none;
+	visibility: hidden;
 }
 
 #no{
-	display: none;
+	visibility: hidden;
 }
 
 #hideNseek{
@@ -92,14 +92,16 @@ h3{
 			min-width: 300px;
 			}
 			
-#info { diplay: bloack;
+#info { 
+		dislay: block;
 		width: 80%;
 		margin: 0 auto;	
-		}
+}
  
-#liked { display: block; 
+#liked { display: none; 
          width: 80%; 
-		 margin: 0 auto;}
+		 margin: 0 auto;
+	}
 
 @media screen and (max-width: 600px) {
 	
