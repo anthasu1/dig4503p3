@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/html5reset.css" media="all">  
     <link rel="stylesheet" href="css/styles.css" media="all"> 
     
+    <!-- Link Web Fonts -->
+    <link href="'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'">
+    <link href="'https://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'">
+    
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script type ="text/javascript" src="js/process.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ" async defer></script>
@@ -15,10 +19,14 @@
 </head>
 
 <body>
-
+	<div class="topBar">
+    	<h1>Sheltr</h1>
+    </div>
+    
 	<div class="menu">
 
-        <h1>Find hot pets in YOUR area!</h1>
+        <h2>Dog and Cats for Adoption</h2>
+        <h3>Pick your preferences below:</h3><br>
         
         <form method="POST" name="pets" id="pets">
             <!-- <input type="text" id="name" placeholder="Nickname"><br> 
@@ -27,25 +35,25 @@
                 <option value="both">Cats &amp; Dogs</option>
                 <option value="cat">Cats</option>
                 <option value="dog">Dogs</option>
-            </select><br>
+            </select><br><br>
             <select name="size" id="size">
                 <option value="none">No preference</option>
                 <option value="S">Small</option>
                 <option value="M">Medium</option>
                 <option value="L">Large</option>
                 <option value="XL">Extra Large</option>
-            </select><br>
+            </select><br><br>
             <select name="sex" id="sex">
                 <option value="none">No preference</option>
                 <option value="M">Male</option>
                 <option value="F">Female</option>
                 
-            </select><br>
+            </select><br><br>
             <input type="submit" value="Submit" id="submit">
             <input type="submit" value="YES" id="yes">
             <input type="submit" value="NO" id="no">
             
-        </form>
+        </form><br>
         
         <button id="hideNseek">Click Here to view your liked pets</button>
         <!-- Use this div for any outputs we have -->
