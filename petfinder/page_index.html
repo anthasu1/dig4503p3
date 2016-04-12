@@ -16,60 +16,73 @@
 
 <body>
 
-	<h1>Find hot pets in YOUR area!</h1>
+	<div class="menu">
 
-	<form method="POST" name="pets" id="pets">
-    	<!-- <input type="text" id="name" placeholder="Nickname"><br> 
-		<input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br> -->
-        <select name="animal" id="animal">
-        	<option value="both">Cats &amp; Dogs</option>
-        	<option value="cat">Cats</option>
-            <option value="dog">Dogs</option>
-        </select><br>
-        <select name="size" id="size">
-        	<option value="none">No preference</option>
-        	<option value="S">Small</option>
-            <option value="M">Medium</option>
-            <option value="L">Large</option>
-            <option value="XL">Extra Large</option>
-        </select><br>
-        <select name="sex" id="sex">
-        	<option value="none">No preference</option>
-        	<option value="M">Male</option>
-            <option value="F">Female</option>
-            
-        </select><br>
-		<input type="submit" value="Submit" id="submit">
-        <input type="submit" value="YES" id="yes">
-        <input type="submit" value="NO" id="no">
+        <h1>Find hot pets in YOUR area!</h1>
         
-	</form>
-    
-    <button id="hideNseek">Click Here to view your liked pets</button>
-    <!-- Use this div for any outputs we have -->
+        <form method="POST" name="pets" id="pets">
+            <!-- <input type="text" id="name" placeholder="Nickname"><br> 
+            <input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br> -->
+            <select name="animal" id="animal">
+                <option value="both">Cats &amp; Dogs</option>
+                <option value="cat">Cats</option>
+                <option value="dog">Dogs</option>
+            </select><br>
+            <select name="size" id="size">
+                <option value="none">No preference</option>
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+                <option value="XL">Extra Large</option>
+            </select><br>
+            <select name="sex" id="sex">
+                <option value="none">No preference</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                
+            </select><br>
+            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="YES" id="yes">
+            <input type="submit" value="NO" id="no">
+            
+        </form>
+        
+        <button id="hideNseek">Click Here to view your liked pets</button>
+        <!-- Use this div for any outputs we have -->
+        
+    </div>
     
     <div id="display">
-    
+        
     	<div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
         <div id="animalData">
-    		<div id="nameDiv"><span id="nameD"></span></div>
-        	<div id="animalDiv"><span id="animalD"></span></div>
-        	<div id="breedDiv"><ul id="breedD"></ul></div>
-        	<div id="ageDiv"><span id="ageD"></span></div>
-        	<div id="sexDiv"><span id="sexD"></span></div>
-        	<div id="sizeDiv"><span id="sizeD"></span></div>
-            <div id="optionDiv"><ul id="optionD"></ul></div>
-        	<div id="descriptionDiv"><span id="descriptionD"></span></div>
-            <div id="photo"><img id="photoD"></div>
-            <div id="distanceDiv"><span id="distanceD"></span></div>
-            <div id="map"></div>
             
-            <div id="contactInfo">
-            	<div id="shelterName"><span id="shelterD"></span></div>
-                <div id="shelterEmail"><span id="emailD"></span></div>
-                <div id="shelterPhone"><span id="phoneD"></span></div>
+            <div id="images">    
+                <div id="photo"><img id="photoD"></div>
+                <div id="map"></div>
+            </div>    
             
+            <div class="textData">
+            	<div id="info">
+                    <div id="nameDiv"><span id="nameD"></span></div>
+                    <div id="animalDiv"><span id="animalD"></span></div>
+                    <div id="breedDiv"><ul id="breedD"></ul></div>
+                    <div id="ageDiv"><span id="ageD"></span></div>
+                    <div id="sexDiv"><span id="sexD"></span></div>
+                    <div id="sizeDiv"><span id="sizeD"></span></div>
+                    <div id="optionDiv"><ul id="optionD"></ul></div>
+                    <div id="descriptionDiv"><span id="descriptionD"></span></div>
+                    <div id="distanceDiv"><span id="distanceD"></span></div>
+                
+                    <div id="contactInfo">
+                        <div id="shelterName"><span id="shelterD"></span></div>
+                        <div id="shelterEmail"><span id="emailD"></span></div>
+                        <div id="shelterPhone"><span id="phoneD"></span></div>
+                    </div>
+                </div>
             </div>
+            
+            
     	</div>
         
         

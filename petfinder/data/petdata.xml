@@ -1,1 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+ <header>
+  <version>0.1</version>
+  <timestamp>2016-04-12T14:45:35Z</timestamp>
+  <status>
+   <code>100</code>
+   <message/>
+  </status>
+ </header>
+ <pet>
+  <id>34796569</id>
+  <shelterId>FL306</shelterId>
+  <shelterPetId>A312116</shelterPetId>
+  <name>Chulo</name>
+  <animal>Dog</animal>
+  <breeds>
+   <breed>Pit Bull Terrier</breed>
+  </breeds>
+  <mix>yes</mix>
+  <age>Adult</age>
+  <sex>M</sex>
+  <size>M</size>
+  <options>
+   <option>hasShots</option>
+   <option>housetrained</option>
+  </options>
+  <description><![CDATA[Chulo is a sweet 3 year old male.  He came to the shelter because his family was no longer able to take care of him.  They said he is housebroken and he has lived with a cat and children.  He knows sit and takes treats gently!  Chulo weighs 55 pounds and he will be neutered before going to his forever home.
+
+Reference Chulo's ID number A312116. For more information about adopting from Seminole County Animal Services contact Mary Beth Lake at 407-665-5206 or mlake@seminolecountyfl.gov]]></description>
+  <lastUpdate>2016-04-12T14:00:27Z</lastUpdate>
+  <status>A</status>
+  <media>
+   <photos>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34796569/1/?bust=1459389529&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34796569/1/?bust=1459389529&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34796569/1/?bust=1459389529&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34796569/1/?bust=1459389529&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34796569/1/?bust=1459389529&amp;width=50&amp;-t.jpg</photo>
+    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34796569/2/?bust=1459389530&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34796569/2/?bust=1459389530&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34796569/2/?bust=1459389530&amp;width=500&amp;-x.jpg</photo>
+    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34796569/2/?bust=1459389530&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34796569/2/?bust=1459389530&amp;width=50&amp;-t.jpg</photo>
+    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34796569/3/?bust=1459389530&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34796569/3/?bust=1459389530&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34796569/3/?bust=1459389530&amp;width=500&amp;-x.jpg</photo>
+    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34796569/3/?bust=1459389530&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34796569/3/?bust=1459389530&amp;width=50&amp;-t.jpg</photo>
+   </photos>
+  </media>
+  <contact>
+   <address1>232 Bush Blvd</address1>
+   <address2/>
+   <city>Sanford</city>
+   <state>FL</state>
+   <zip>32773</zip>
+   <phone>407-665-5208 </phone>
+   <fax>407-665-5213</fax>
+   <email>dgagliano@seminolecountyfl.gov</email>
+  </contact>
+ </pet>
+</petfinder>
