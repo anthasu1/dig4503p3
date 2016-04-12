@@ -1,6 +1,48 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body{
+	background-image: url("../img/dog4.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	color: #FFFFFF;
+}
+
+h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight:500;
+	font-size: 24px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin-top: 4px;
+	margin-bottom: 8px;
+}
+
+
+#submit, button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	background-color: #6184db;
+	border-radius: 4px;
+	border: none;
+	padding: 7px;
+}
+
+
 #loading{
 	text-align: center;
 	visibility:hidden;
@@ -15,8 +57,15 @@
 		height: 300px;
 		float: left; }
 
+.topBar{ width: 100%;
+		 padding: 8px;
+		 background-color: #50c5b7;}
+
 .menu{ width: 25%; 
-       float: left; }
+       float: left; 
+	   padding: 2%;
+	   background-color: rgba(80,197,183,0.7);
+	   color: #FFFFFF;}
 
 #images{ width: 50%; 
          float: left; 
@@ -28,11 +77,13 @@
 
 .textData { width: 50%; 
             float: left; 
-			min-width: 300px;}
+			min-width: 300px;
+			}
 			
 #info { diplay: bloack;
 		width: 80%;
-		margin: 0 auto;}
+		margin: 0 auto;	
+		}
  
 #liked { display: block; 
          width: 80%; 
