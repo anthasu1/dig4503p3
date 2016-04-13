@@ -2,63 +2,69 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T00:47:45Z</timestamp>
+  <timestamp>2016-04-13T00:56:29Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>34314021</id>
-  <shelterId>FL306</shelterId>
-  <shelterPetId>A309880 Bruce</shelterPetId>
-  <name>Bruce</name>
+  <id>31973292</id>
+  <shelterId>FL1067</shelterId>
+  <shelterPetId/>
+  <name>Sunshine</name>
   <animal>Dog</animal>
   <breeds>
-   <breed>Pit Bull Terrier</breed>
+   <breed>Terrier</breed>
   </breeds>
-  <mix>no</mix>
-  <age>Baby</age>
-  <sex>M</sex>
+  <mix>yes</mix>
+  <age>Adult</age>
+  <sex>F</sex>
   <size>M</size>
   <options>
    <option>hasShots</option>
    <option>altered</option>
-   <option>noCats</option>
+   <option>housetrained</option>
   </options>
-  <description><![CDATA[Bruce is an adorable 10 month old baby boy.  He is such a well-behaved puppy!  He is a little timid at first, but very sweet and ready for a loving family to grow up and grow old with.  He knows sit, he takes treats very gently, and he walks great on a leash.  Bruce needs a home with no cats, he currently weighs 50 pounds and he is already neutered so he can go to his forever home the same day he is adopted!
+  <description><![CDATA[Sunshine (formerly Posie) and her 3 puppies were rescued from OCAS in April of 2015.
+Sunny is a great dog, who is happy to meet others (her body language is perfect and she just wants to play). She is housebroken and walks good on the leash.  Sunshine loves to go on car rides and walks.  She's working on her confidence which was very low when she got to her foster home.  She's been neglected, but that hasn't seemed to harden her. 
 
-Reference Bruce's ID number A309880 For more information about adopting from Seminole County Animal Services contact Mary Beth Lake at 407-665-5206 or mlake@seminolecountyfl.gov]]></description>
-  <lastUpdate>2016-04-12T13:58:45Z</lastUpdate>
+Please email contact@sniffingsnouts.com if you woud like to meet this great girl!
+
+Visual breed identification in dogs is unreliable, so for most of the dogs we are only guessing at predominant breed or breed mix. We get to know each dog as an individual and will do our best to describe each of our dogs based on personality, not by breed label.
+
+To see other photos, please visit our Facebook fan page:
+https://www.facebook.com/Sniffingsnoutsanimalrescue]]></description>
+  <lastUpdate>2015-09-10T08:26:22Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34314021/1/?bust=1453670343&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34314021/1/?bust=1453670343&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34314021/1/?bust=1453670343&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34314021/1/?bust=1453670343&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34314021/1/?bust=1453670343&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34314021/2/?bust=1453670344&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34314021/2/?bust=1453670344&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34314021/2/?bust=1453670344&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34314021/2/?bust=1453670344&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34314021/2/?bust=1453670344&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34314021/3/?bust=1453670344&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34314021/3/?bust=1453670344&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34314021/3/?bust=1453670344&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34314021/3/?bust=1453670344&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34314021/3/?bust=1453670344&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31973292/1/?bust=1429688120&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31973292/1/?bust=1429688120&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31973292/1/?bust=1429688120&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31973292/1/?bust=1429688120&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31973292/1/?bust=1429688120&amp;width=50&amp;-t.jpg</photo>
+    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/31973292/2/?bust=1441872091&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/31973292/2/?bust=1441872091&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/31973292/2/?bust=1441872091&amp;width=500&amp;-x.jpg</photo>
+    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/31973292/2/?bust=1441872091&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/31973292/2/?bust=1441872091&amp;width=50&amp;-t.jpg</photo>
+    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/31973292/3/?bust=1441872093&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/31973292/3/?bust=1441872093&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/31973292/3/?bust=1441872093&amp;width=500&amp;-x.jpg</photo>
+    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/31973292/3/?bust=1441872093&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/31973292/3/?bust=1441872093&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1>232 Bush Blvd</address1>
+   <address1/>
    <address2/>
-   <city>Sanford</city>
+   <city>Winter Park</city>
    <state>FL</state>
-   <zip>32773</zip>
-   <phone>407-665-5208 </phone>
-   <fax>407-665-5213</fax>
-   <email>dgagliano@seminolecountyfl.gov</email>
+   <zip>32792</zip>
+   <phone>  </phone>
+   <fax/>
+   <email>contact@sniffingsnouts.com</email>
   </contact>
  </pet>
 </petfinder>

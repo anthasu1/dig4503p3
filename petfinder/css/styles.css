@@ -82,8 +82,9 @@ h3{
 	   background-color: rgba(80,197,183,0.7);
 	   color: #FFFFFF;
 	   }
+	   
 
-#photoD { width: 300px; float: left;}
+#photoD { display: block; width: 300px; margin: 0 auto; }
 
 #display { width: 71%; float: left;}
 
@@ -95,11 +96,17 @@ h3{
 		color: #533a71;
 }
 		
-.imageData{ width: 40%; float: left;}	
+.imageData{ width: 50%; float: left; min-width: 300px;}	
 
-.textData{ float: left; width: 50%;}
+.textData{ float: left; width: 50%; min-width: 300px;}
 			
 #info { 
+		dislay: block;
+		width: 80%;
+		margin: 0 auto;	
+}
+ 
+#contactInfo{
 		dislay: block;
 		width: 80%;
 		margin: 0 auto;	
@@ -114,6 +121,7 @@ h3{
 	
 	 #display{ width: 100%; }
 
+	.imageData{ width: 100%; }
 	
 	.menu{ width: 100%; height: auto;}
 	
@@ -122,6 +130,8 @@ h3{
 	.textData{ width:100%; }
 	
 	#photoD { width: 100%; }
+	
+	#map { width: 100%; }
 	
 	}
 
