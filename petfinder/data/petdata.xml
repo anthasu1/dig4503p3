@@ -2,62 +2,47 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-12T14:47:55Z</timestamp>
+  <timestamp>2016-04-13T00:11:42Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>33614107</id>
-  <shelterId>FL306</shelterId>
-  <shelterPetId>A307855 Riley</shelterPetId>
-  <name>Riley</name>
-  <animal>Dog</animal>
+  <id>34878793</id>
+  <shelterId>FL275</shelterId>
+  <shelterPetId>A345781</shelterPetId>
+  <name>JESS</name>
+  <animal>Cat</animal>
   <breeds>
-   <breed>Basset Hound</breed>
+   <breed>Domestic Short Hair</breed>
   </breeds>
-  <mix>yes</mix>
-  <age>Adult</age>
+  <mix>no</mix>
+  <age>Young</age>
   <sex>F</sex>
-  <size>M</size>
-  <options>
-   <option>hasShots</option>
-   <option>altered</option>
-  </options>
-  <description><![CDATA[Riley is a super cute 7 year old female.  She came to the shelter because her owner could no longer take care of her, and she needs a home with no children and where she can be the only dog.  She knows sit and walks great on a leash.  Riley weighs 53 pounds and she is already spayed so she can go to her forever home the same day she is adopted!
-
-Reference Riley's ID number A307855. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
-  <lastUpdate>2015-10-25T20:48:19Z</lastUpdate>
+  <size>S</size>
+  <options/>
+  <description><![CDATA[]]></description>
+  <lastUpdate>2016-04-12T21:05:39Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33614107/1/?bust=1445806097&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33614107/1/?bust=1445806097&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33614107/1/?bust=1445806097&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33614107/1/?bust=1445806097&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33614107/1/?bust=1445806097&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33614107/2/?bust=1445806098&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33614107/2/?bust=1445806098&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33614107/2/?bust=1445806098&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33614107/2/?bust=1445806098&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33614107/2/?bust=1445806098&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/33614107/3/?bust=1445806098&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/33614107/3/?bust=1445806098&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/33614107/3/?bust=1445806098&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/33614107/3/?bust=1445806098&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/33614107/3/?bust=1445806098&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1>232 Bush Blvd</address1>
+   <address1>2769 Conroy Road</address1>
    <address2/>
-   <city>Sanford</city>
+   <city>Orlando</city>
    <state>FL</state>
-   <zip>32773</zip>
-   <phone>407-665-5208 </phone>
-   <fax>407-665-5213</fax>
-   <email>dgagliano@seminolecountyfl.gov</email>
+   <zip>32839</zip>
+   <phone/>
+   <fax/>
+   <email>AnimalServices@ocfl.net</email>
   </contact>
  </pet>
 </petfinder>

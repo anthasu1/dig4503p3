@@ -50,7 +50,8 @@
                 
             </select><br><br>
             <input type="submit" value="Submit" id="submit">
-           
+           	<input type="submit" value="YES" id="yes">
+            	 <input type="submit" value="NO" id="no">
             
         </form><br>
         
@@ -58,18 +59,15 @@
         <!-- Use this div for any outputs we have -->
         
     </div>
-    
+                <div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
+
     <div id="display">
  
         <div id="animalData">
-            <div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
-            <div id="images">    
-                <div id="photo"><img id="photoD"></div>
-                <div id="map"></div>
-            </div>    
+               
+            		<img id="photoD">
             
             <div class="textData">
-            	<div id="info">
                     <div id="nameDiv"><span id="nameD"></span></div>
                     <div id="animalDiv"><span id="animalD"></span></div>
                     <div id="breedDiv"><ul id="breedD"></ul></div>
@@ -85,16 +83,11 @@
                         <div id="shelterEmail"><span id="emailD"></span></div>
                         <div id="shelterPhone"><span id="phoneD"></span></div>
                     </div>
-                </div> 
+                </div>
                 
-                 <input type="submit" value="YES" id="yes">
-            	 <input type="submit" value="NO" id="no">
-                        
+            <div id="map"></div>        
                 
-            </div>
-         
-            
-    	</div>
+    		</div>
         
         
         <div id="liked"></div>

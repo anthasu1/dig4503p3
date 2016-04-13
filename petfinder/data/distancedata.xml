@@ -2,17 +2,17 @@
 <DistanceMatrixResponse>
  <status>OK</status>
  <origin_address>445 S Magnolia Ave, Orlando, FL 32801, USA</origin_address>
- <destination_address>232 Bush Blvd, Sanford, FL 32773, USA</destination_address>
+ <destination_address>2769 Conroy Rd, Orlando, FL 32839, USA</destination_address>
  <row>
   <element>
    <status>OK</status>
    <duration>
-    <value>1747</value>
-    <text>29 mins</text>
+    <value>868</value>
+    <text>14 mins</text>
    </duration>
    <distance>
-    <value>28771</value>
-    <text>17.9 mi</text>
+    <value>10481</value>
+    <text>6.5 mi</text>
    </distance>
   </element>
  </row>
