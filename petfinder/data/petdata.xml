@@ -2,61 +2,51 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T16:22:12Z</timestamp>
+  <timestamp>2016-04-13T16:26:18Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>34880624</id>
-  <shelterId>FL1397</shelterId>
-  <shelterPetId>31183654</shelterPetId>
-  <name>Oscar</name>
-  <animal>Dog</animal>
+  <id>33032772</id>
+  <shelterId>FL912</shelterId>
+  <shelterPetId/>
+  <name>Teddy</name>
+  <animal>Cat</animal>
   <breeds>
-   <breed>Labrador Retriever</breed>
+   <breed>Domestic Short Hair - orange and white</breed>
   </breeds>
   <mix>no</mix>
   <age>Young</age>
   <sex>M</sex>
-  <size>L</size>
+  <size>S</size>
   <options>
+   <option>hasShots</option>
    <option>altered</option>
-   <option>noCats</option>
    <option>housetrained</option>
   </options>
-  <description><![CDATA[]]></description>
-  <lastUpdate>2016-04-12T22:02:07Z</lastUpdate>
+  <description><![CDATA[sweet young guy!  affectionate]]></description>
+  <lastUpdate>2015-08-17T06:43:02Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33032772/1/?bust=1439793782&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33032772/1/?bust=1439793782&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33032772/1/?bust=1439793782&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33032772/1/?bust=1439793782&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33032772/1/?bust=1439793782&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1>2727 Conroy Road</address1>
+   <address1>P.O. Box 740075</address1>
    <address2/>
-   <city>Orlando</city>
+   <city>Orange City</city>
    <state>FL</state>
-   <zip>32839</zip>
-   <phone>407-351-7722</phone>
-   <fax>407-352-2070</fax>
-   <email>info@petallianceorlando.org</email>
+   <zip>32763</zip>
+   <phone>321-441-6481</phone>
+   <fax>386-851-0807</fax>
+   <email>aristocatgirl@hotmail.com</email>
   </contact>
  </pet>
 </petfinder>

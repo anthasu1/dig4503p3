@@ -170,6 +170,7 @@ ul{
 	#statement{
 		padding-top: 30px;
     	font-size: 14px;	
+		width: 100%;
 	}
 	
 .col1{ width: 40%; float: left; font-family: 'Open Sans', sans-serif;
@@ -183,7 +184,7 @@ ul{
 
 	.imageData{ width: 100%; }
 	
-	.menu{ width: 100%; height: auto;}
+	.menu{ width: 100%; }
 	
 	 #images{ width: 100%; }
 	
@@ -192,6 +193,10 @@ ul{
 	#photoD { width: 100%; }
 	
 	#map { width: 100%; }
+	
+	.col1{ width: 100%; }
+	
+	.col2{ width: 100%; }
 	
 	}
 
