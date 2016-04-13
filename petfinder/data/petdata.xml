@@ -2,63 +2,62 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T01:20:03Z</timestamp>
+  <timestamp>2016-04-13T01:37:32Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>33216998</id>
-  <shelterId>FL1067</shelterId>
-  <shelterPetId/>
-  <name>Max</name>
-  <animal>Dog</animal>
+  <id>31225607</id>
+  <shelterId>FL189</shelterId>
+  <shelterPetId>6789490</shelterPetId>
+  <name>Tia</name>
+  <animal>Cat</animal>
   <breeds>
-   <breed>Terrier</breed>
+   <breed>Domestic Short Hair</breed>
+   <breed>Tabby</breed>
   </breeds>
-  <mix>yes</mix>
-  <age>Adult</age>
-  <sex>M</sex>
-  <size>L</size>
+  <mix>no</mix>
+  <age>Baby</age>
+  <sex>F</sex>
+  <size>S</size>
   <options>
    <option>hasShots</option>
    <option>altered</option>
    <option>housetrained</option>
   </options>
-  <description><![CDATA[Max has been with us a year and is probably around 2 years old. We adopted him from Orange County Services  September of 2014 with the intention of fostering him. He was obviously never trained to walk on a lease or anything that most dogs would know by the time they are 9-12 months old.  He was house trained and he went right in a kennel from day one without a problem. We have had a trainer off and on for the past year help us with him. He has gotten better about walking on the leash, but we don't have the time to spend with him that he really needs. We have a bike tow leash and that is a good form of exercise for him when my husband can run him or a neighborhood boy can. He still jumps up sometimes. That has been a constant problem. He does great with the trainer but we haven't been as consistent with his training as would have been best. He is very energetic! Most of the time he is a sweet boy but if he has not had enough exercise he gets full of himself. He seems to like men, I think he must have had a male owner before. He loves my husband even though I do most of the work with him and feed him most of the time. He is a very loyal and affectionate dog. He hasn't been around children much and is unsure of things that he hasn't been around. When we first got him he was afraid of black trash bags out on the street, I don't think he had ever been in a car or out of the house he was first in.  He has become a very good watchdog. He is very alert  and interested in everything that is going on. If you are looking for a passive dog, Max is not it. If you are looking for a loyal, loving best friend Max could be for you. We have turned down people who don't have yards. I don't think an apartment is the right place for Max. We want to find him the best home we can for him. I have never fostered a dog before, and have gotten very attached to Max. He loves to ride in the car. It would be great if he could ride around with someone all day. Someone who lives out on a ranch or farm would be ideal or is home all day. My husband and I both work so we aren't home during the day much.
-
-Contact: dustysutton@ymail.com]]></description>
-  <lastUpdate>2016-01-04T08:17:15Z</lastUpdate>
+  <description><![CDATA[You can fill out an adoption application online on our official website.Pet of the week 2.23.15We would love to see Tia and Captain Jack be adopted together. It is not mandatory but they are so loving together....Tia was found in the rain along with her mother Snow, and her siblings. The kittens all have an eye condition called Feline Herpes Virus and Symblepharon. What does this mean?It means the Symblepharon is a condition that occurs in Kittens exposed to the virus at an early age. The virus causes corneal and conjunctival ulcers which forms adhesions of the conjunctival tissue to the cornea and eyelides (called symblepharon). The adhesions limit vision but are non-painful. Surgeries may be attempted to correct the symblepharon: however, recurrence is common. This condition cannot be cured only controlled. Treatment will vary depending on what specific problem is present. When FHV is suspected, usually anit-viral eye drops or pills are used. Antibiotic eye drops may be used to address any secondary bacterial infection. Oral supplementation of the amino acid L-Lysine may help minimize recurrences and decrease the severity of future FHV outbreaks. Literature will be supllied at the time of adoption or fostering.These three sweeties have been to eye specialist and have been at PRBJ since birth. In times of stress the virus can reactiviate and cause recurrences of ey problems. Try to imagine how stressful it can be for any one of our animals at the shelter. They would really benefit greatly if someone out there would consider fostering or adoption. They do not have to go together. Please read up on this condition or call our shelter to speak to our vet tech. April 12, 2016, 6:01 pm]]></description>
+  <lastUpdate>2016-04-12T23:09:55Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33216998/1/?bust=1441610550&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33216998/1/?bust=1441610550&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33216998/1/?bust=1441610550&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33216998/1/?bust=1441610550&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33216998/1/?bust=1441610550&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33216998/2/?bust=1451895436&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33216998/2/?bust=1451895436&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33216998/2/?bust=1451895436&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33216998/2/?bust=1451895436&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33216998/2/?bust=1451895436&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/33216998/3/?bust=1451895436&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/33216998/3/?bust=1451895436&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/33216998/3/?bust=1451895436&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/33216998/3/?bust=1451895436&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/33216998/3/?bust=1451895436&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=50&amp;-t.jpg</photo>
+    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=500&amp;-x.jpg</photo>
+    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=50&amp;-t.jpg</photo>
+    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=500&amp;-x.jpg</photo>
+    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1/>
+   <address1>2620 Iroquois Avenue</address1>
    <address2/>
-   <city>Winter Park</city>
+   <city>Sanford</city>
    <state>FL</state>
-   <zip>32792</zip>
-   <phone>  </phone>
+   <zip>32773</zip>
+   <phone>407-302-4497</phone>
    <fax/>
-   <email>contact@sniffingsnouts.com</email>
+   <email>info@petrescuebyjudy.com</email>
   </contact>
  </pet>
 </petfinder>

@@ -57,12 +57,12 @@ h3{
 
 #yes{
 	visibility: hidden;
-	height: 30px;
+	height: 50px;
 }
 
 #no{
 	visibility: hidden;
-	height: 30px;
+	height: 50px;
 }
 
 #hideNseek{
@@ -119,6 +119,9 @@ h3{
          width: 100%; 
 	     float: right;
 	}
+	
+.col1{ width: 50%; float: left;}
+.col2{ width: 50%; float: left;}
 
 @media screen and (max-width: 600px) {
 	
