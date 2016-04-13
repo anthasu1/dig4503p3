@@ -107,10 +107,11 @@ h3{
 }
  
 #contactInfo{
-		dislay: block;
-		width: 80%;
+		display: block;
+		width: 300px;
 		margin: 0 auto;	
 }
+ 
  
 #liked { display: none; 
          width: 100%; 
