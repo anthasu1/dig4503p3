@@ -10,6 +10,8 @@ body{
 	font-weight: 300;
 }
 
+html, body {height: 100%}
+
 h1{
 	font-family: 'Nunito', sans-serif;
 	font-size: 36px;
@@ -73,7 +75,7 @@ h3{
 		 padding: 8px;
 		 background-color: #50c5b7;}
 
-.menu{ height: 100vh; 
+.menu{ height: 100%; 
 	   width: 25%; 
        float: left; 
 	   padding: 2%;
@@ -93,6 +95,8 @@ h3{
 		color: #533a71;
 }
 		
+.imageData{ width: 40%; float: left;}	
+
 .textData{ float: left; width: 50%;}
 			
 #info { 

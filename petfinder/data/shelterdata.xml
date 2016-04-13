@@ -2,25 +2,25 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T00:36:59Z</timestamp>
+  <timestamp>2016-04-13T00:47:45Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <shelter>
-  <id>FL1171</id>
-  <name>LoveyLoaves Sanctuary</name>
-  <address1/>
+  <id>FL306</id>
+  <name>Seminole County Animal Services</name>
+  <address1>232 Bush Blvd</address1>
   <address2/>
-  <city>Orlando</city>
+  <city>Sanford</city>
   <state>FL</state>
-  <zip>32825</zip>
+  <zip>32773</zip>
   <country>US</country>
-  <latitude>28.547</latitude>
-  <longitude>-81.2525</longitude>
-  <phone>407-446-2245   </phone>
-  <fax/>
-  <email>cheri@loveyloaves.org</email>
+  <latitude>28.7653</latitude>
+  <longitude>-81.28</longitude>
+  <phone>407-665-5208 </phone>
+  <fax>407-665-5213</fax>
+  <email>dgagliano@seminolecountyfl.gov</email>
  </shelter>
 </petfinder>
