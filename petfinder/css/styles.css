@@ -141,8 +141,10 @@ ul{
 		 font-weight: 300;
 	}
 	
-.col1{ width: 50%; float: left;}
-.col2{ width: 50%; float: left;}
+.col1{ width: 50%; float: left; font-family: 'Open Sans', sans-serif;
+		 font-weight: 300;}
+.col2{ width: 50%; float: left; font-family: 'Open Sans', sans-serif;
+		 font-weight: 300;}
 
 @media screen and (max-width: 600px) {
 	
