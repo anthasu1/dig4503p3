@@ -13,6 +13,10 @@
 	$sex = $_POST['sex'];
 	$shelterid = $_POST['shelter'];
 	
+	
+	$data = json_decode($_POST['counter']);
+
+	
 	$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&shelterid=".$shelterid."&animal=".$animal;
 	
 	if ($size != "none"){
@@ -35,7 +39,11 @@
 
 	$xml = simplexml_load_file($xmlFile);
 
-		
+	$petid = $xml->pet[0]->id;
+	$petid = (string) $petid;
+	print_r($petid);
+	
+	
 			
 		//if failed to grab pet, do it again, 
 		if(!isset($xml->pet[0])){
@@ -46,6 +54,7 @@
     		$petData->asXML("../data/petdata.xml");
 			$xmlFile = "../data/petdata.xml";
 			$xml = simplexml_load_file($xmlFile);
+
 		}
 
 	
@@ -79,8 +88,6 @@
 	
 	$distanceData->asXML("../data/distancedata.xml");
 	
-	$result = "true";
 	
-	print $result;
-	
+
 ?>

@@ -5,7 +5,7 @@
 
 $(document).ready(function(){
 	"use strict";
-
+	
 	$(".close").click(function(){
 		console.log("clicked");
 	}); 
@@ -41,6 +41,8 @@ $(document).ready(function(){
 		if($("#animalData").css("display") === "none"){
 			$("#animalData").css("display", "block");	
 		}
+		
+		
 		
 		if (submitvalue === "YES"){
 			likedPet();
@@ -140,7 +142,7 @@ $(document).ready(function(){
 			'animal'	: animal,
 			'size'		: $("#size").val(),
 			'sex'		: $("#sex").val(),
-			'petarray'	: petArray
+			'counter'	: counter
 		};
 
 		console.log(formData);
@@ -472,9 +474,9 @@ function likedPet(){
 	closebtn.innerHTML = "x";
 	closebtn.setAttribute("onclick", "this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode);");
 	
-	newAccordionPetInfo.innerHTML = "<p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p><img class = 'accordionimage' src='"+likedphoto+"'>";
+	newAccordionPetInfo.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'></div><div class='col2'><p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p></div>";
 	
-	newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";
+	newAccordionShelterInfo.innerHTML = "<div class='col3'><p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p></div>";
 	
 	newAccordionPetInfo.appendChild(closebtn);
 	newAccordionContent.appendChild(newAccordionPetInfo);
