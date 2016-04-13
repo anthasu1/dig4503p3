@@ -2,25 +2,25 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T01:00:29Z</timestamp>
+  <timestamp>2016-04-13T01:20:03Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <shelter>
-  <id>FL912</id>
-  <name>Aristocats, Inc.</name>
-  <address1>P.O. Box 740075</address1>
+  <id>FL1067</id>
+  <name>Sniffing Snouts Pit Bull Rescue</name>
+  <address1/>
   <address2/>
-  <city>Orange City</city>
+  <city>Winter Park</city>
   <state>FL</state>
-  <zip>32763</zip>
+  <zip>32792</zip>
   <country>US</country>
-  <latitude>28.9545</latitude>
-  <longitude>-81.2911</longitude>
-  <phone>321-441-6481</phone>
-  <fax>386-851-0807</fax>
-  <email>aristocatgirl@hotmail.com</email>
+  <latitude>28.609</latitude>
+  <longitude>-81.3058</longitude>
+  <phone>  </phone>
+  <fax/>
+  <email>contact@sniffingsnouts.com</email>
  </shelter>
 </petfinder>

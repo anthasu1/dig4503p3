@@ -2,17 +2,17 @@
 <DistanceMatrixResponse>
  <status>OK</status>
  <origin_address>445 S Magnolia Ave, Orlando, FL 32801, USA</origin_address>
- <destination_address>Orange City, FL, USA</destination_address>
+ <destination_address>Winter Park, FL, USA</destination_address>
  <row>
   <element>
    <status>OK</status>
    <duration>
-    <value>2245</value>
-    <text>37 mins</text>
+    <value>967</value>
+    <text>16 mins</text>
    </duration>
    <distance>
-    <value>55712</value>
-    <text>34.6 mi</text>
+    <value>11768</value>
+    <text>7.3 mi</text>
    </distance>
   </element>
  </row>

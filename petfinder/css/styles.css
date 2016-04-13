@@ -57,10 +57,12 @@ h3{
 
 #yes{
 	visibility: hidden;
+	height: 30px;
 }
 
 #no{
 	visibility: hidden;
+	height: 30px;
 }
 
 #hideNseek{
