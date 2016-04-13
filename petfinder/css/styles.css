@@ -1,4 +1,4 @@
-@charset "UTF-8";
+89@charset "UTF-8";
 /* CSS Document */
 
 body{
@@ -11,6 +11,12 @@ body{
 }
 
 html, body {height: 100%}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+}
 
 h1{
 	font-family: 'Nunito', sans-serif;
@@ -28,9 +34,13 @@ h2{
 
 h3{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
 	margin-top: 4px;
 	margin-bottom: 8px;
+}
+
+ul{
+	list-style: none;
 }
 
 
@@ -71,7 +81,10 @@ h3{
 
 #map {  width: 300px;
 		height: 300px;
-		float: left; }
+		float: left; 
+		margin-top: 10px;
+		margin-bottom: 10px;
+		}
 
 .topBar{ width: 100%;
 		 padding: 8px;
@@ -101,23 +114,32 @@ h3{
 .imageData{ width: 50%; float: left; min-width: 300px;}	
 
 .textData{ float: left; width: 50%; min-width: 300px;}
+
 			
 #info { 
 		dislay: block;
 		width: 80%;
 		margin: 0 auto;	
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
 }
  
 #contactInfo{
 		display: block;
 		width: 300px;
 		margin: 0 auto;	
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		margin-top: 10px;
+		margin-bottom: 10px;
 }
  
  
 #liked { display: none; 
          width: 100%; 
 	     float: right;
+		 font-family: 'Open Sans', sans-serif;
+		 font-weight: 300;
 	}
 	
 .col1{ width: 50%; float: left;}
