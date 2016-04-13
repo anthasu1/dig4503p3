@@ -487,7 +487,7 @@ function likedPet(){
 	var PetInfoHTML = document.createElement("div");
 	PetInfoHTML.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'><p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p></div>";
 	var PetInfoHTML2 = document.createElement("div");
-	PetInfoHTML2.innerHTML = "<div class='col2'><p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p></div>";
+	PetInfoHTML2.innerHTML = "<br><br><div class='col2'><p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p></div>";
 	
 	/*newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";*/
 	
