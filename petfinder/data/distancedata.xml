@@ -2,17 +2,17 @@
 <DistanceMatrixResponse>
  <status>OK</status>
  <origin_address>445 S Magnolia Ave, Orlando, FL 32801, USA</origin_address>
- <destination_address>2620 Iroquois Ave, Sanford, FL 32773, USA</destination_address>
+ <destination_address>2727 Conroy Rd, Orlando, FL 32839, USA</destination_address>
  <row>
   <element>
    <status>OK</status>
    <duration>
-    <value>1586</value>
-    <text>26 mins</text>
+    <value>825</value>
+    <text>14 mins</text>
    </duration>
    <distance>
-    <value>41774</value>
-    <text>26.0 mi</text>
+    <value>10308</value>
+    <text>6.4 mi</text>
    </distance>
   </element>
  </row>

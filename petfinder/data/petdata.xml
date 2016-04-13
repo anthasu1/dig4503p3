@@ -2,62 +2,61 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T01:37:32Z</timestamp>
+  <timestamp>2016-04-13T16:22:12Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>31225607</id>
-  <shelterId>FL189</shelterId>
-  <shelterPetId>6789490</shelterPetId>
-  <name>Tia</name>
-  <animal>Cat</animal>
+  <id>34880624</id>
+  <shelterId>FL1397</shelterId>
+  <shelterPetId>31183654</shelterPetId>
+  <name>Oscar</name>
+  <animal>Dog</animal>
   <breeds>
-   <breed>Domestic Short Hair</breed>
-   <breed>Tabby</breed>
+   <breed>Labrador Retriever</breed>
   </breeds>
   <mix>no</mix>
-  <age>Baby</age>
-  <sex>F</sex>
-  <size>S</size>
+  <age>Young</age>
+  <sex>M</sex>
+  <size>L</size>
   <options>
-   <option>hasShots</option>
    <option>altered</option>
+   <option>noCats</option>
    <option>housetrained</option>
   </options>
-  <description><![CDATA[You can fill out an adoption application online on our official website.Pet of the week 2.23.15We would love to see Tia and Captain Jack be adopted together. It is not mandatory but they are so loving together....Tia was found in the rain along with her mother Snow, and her siblings. The kittens all have an eye condition called Feline Herpes Virus and Symblepharon. What does this mean?It means the Symblepharon is a condition that occurs in Kittens exposed to the virus at an early age. The virus causes corneal and conjunctival ulcers which forms adhesions of the conjunctival tissue to the cornea and eyelides (called symblepharon). The adhesions limit vision but are non-painful. Surgeries may be attempted to correct the symblepharon: however, recurrence is common. This condition cannot be cured only controlled. Treatment will vary depending on what specific problem is present. When FHV is suspected, usually anit-viral eye drops or pills are used. Antibiotic eye drops may be used to address any secondary bacterial infection. Oral supplementation of the amino acid L-Lysine may help minimize recurrences and decrease the severity of future FHV outbreaks. Literature will be supllied at the time of adoption or fostering.These three sweeties have been to eye specialist and have been at PRBJ since birth. In times of stress the virus can reactiviate and cause recurrences of ey problems. Try to imagine how stressful it can be for any one of our animals at the shelter. They would really benefit greatly if someone out there would consider fostering or adoption. They do not have to go together. Please read up on this condition or call our shelter to speak to our vet tech. April 12, 2016, 6:01 pm]]></description>
-  <lastUpdate>2016-04-12T23:09:55Z</lastUpdate>
+  <description><![CDATA[]]></description>
+  <lastUpdate>2016-04-12T22:02:07Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31225607/1/?bust=1430934097&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/31225607/2/?bust=1430934097&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/31225607/3/?bust=1430934096&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34880624/1/?bust=1460504673&amp;width=50&amp;-t.jpg</photo>
+    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=500&amp;-x.jpg</photo>
+    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34880624/2/?bust=1460504673&amp;width=50&amp;-t.jpg</photo>
+    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=500&amp;-x.jpg</photo>
+    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34880624/3/?bust=1460504675&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1>2620 Iroquois Avenue</address1>
+   <address1>2727 Conroy Road</address1>
    <address2/>
-   <city>Sanford</city>
+   <city>Orlando</city>
    <state>FL</state>
-   <zip>32773</zip>
-   <phone>407-302-4497</phone>
-   <fax/>
-   <email>info@petrescuebyjudy.com</email>
+   <zip>32839</zip>
+   <phone>407-351-7722</phone>
+   <fax>407-352-2070</fax>
+   <email>info@petallianceorlando.org</email>
   </contact>
  </pet>
 </petfinder>
