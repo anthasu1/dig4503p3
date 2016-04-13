@@ -22,6 +22,7 @@ h1{
 	font-family: 'Nunito', sans-serif;
 	font-size: 36px;
 	color: #FFFFFF;
+	padding-left: 10px;
 }
 
 h2{
@@ -95,7 +96,8 @@ ul{
 		}
 
 .topBar{ width: 100%;
-		 padding: 8px;
+		 padding: 8px 0px;
+		 
 		 background-color: #50c5b7;}
 
 .menu{ height: 100%; 
@@ -151,7 +153,24 @@ ul{
 		 font-weight: 300;
 	}
 	
-.col1{ width: 50%; float: left; font-family: 'Open Sans', sans-serif;
+	#nameDiv{
+		padding-bottom: 20px;	
+	}
+	
+	#optionDiv{
+		padding-top: 30px;	
+	}
+	
+	#distanceDiv{
+		padding-bottom: 10px;	
+	}
+	
+	#statement{
+		padding-top: 30px;
+    	font-size: 14px;	
+	}
+	
+.col1{ width: 40%; float: left; font-family: 'Open Sans', sans-serif;
 		 font-weight: 300;}
 .col2{ width: 50%; float: left; font-family: 'Open Sans', sans-serif;
 		 font-weight: 300;}
@@ -196,10 +215,32 @@ div.accordion.active, div.accordion:hover {
 
 div.panel {
     padding: 0 18px;
-    display: none;
-    background-color: white;
+    /* background-color: white; */
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.panel.show {
-    display: block !important;
+    opacity: 1;
+    max-height: 1000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+div.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+div.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.accordwrap{
+	width: 95%	
 }

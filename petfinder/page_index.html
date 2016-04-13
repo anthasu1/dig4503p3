@@ -33,11 +33,13 @@
         <form method="POST" name="pets" id="pets">
             <!-- <input type="text" id="name" placeholder="Nickname"><br> 
             <input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br> -->
+            <label for="animal">Type of Animal</label><br>
             <select name="animal" id="animal">
                 <option value="both">Cats &amp; Dogs</option>
                 <option value="cat">Cats</option>
                 <option value="dog">Dogs</option>
             </select><br><br>
+            <label for="size">Size</label><br>
             <select name="size" id="size">
                 <option value="none">No preference</option>
                 <option value="S">Small</option>
@@ -45,6 +47,7 @@
                 <option value="L">Large</option>
                 <option value="XL">Extra Large</option>
             </select><br><br>
+            <label for="sex">Sex</label><br>
             <select name="sex" id="sex">
                 <option value="none">No preference</option>
                 <option value="M">Male</option>
@@ -58,8 +61,9 @@
         </form><br>
         
         <button id="hideNseek">Click here to view your liked pets</button>
-        <!-- Use this div for any outputs we have -->
         
+        
+   		<div id="statement"><p>This is an educational assignment prepared for the UCF SVAD course DIG4503: Rapid App with Dan Novatnak, Spring 2016. Not a commercial product.</p></div>
     </div>
                 <div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
 				<div id="errordiv"></div>
@@ -72,9 +76,11 @@
                     <img id="photoD">
             		
                     <div id="contactInfo">
-                    	<div id="distanceDiv"><span id="distanceD"></span></div>
+                    	
 
                         <div id="map"></div><br><br>
+                        <div id="distanceDiv"><span id="distanceD"></span></div>
+                        <h4>Contact Information</h4>
                         <div id="shelterName"><span id="shelterD"></span></div>
                         <div id="shelterEmail"><span id="emailD"></span></div>
                         <div id="shelterPhone"><span id="phoneD"></span></div>

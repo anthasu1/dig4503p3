@@ -32,7 +32,10 @@ $(document).ready(function(){
 		submitvalue = $(document.activeElement).val();
 		console.log(submitvalue);
 
-		$("body").css("background-image", "none");
+		$("body").css("background-image", "url('img/pawseam2.png')");
+		$("body").css("background-repeat", "repeat");
+		$("body").css("background-size", "auto");
+		$("body").css("background-color", "rgba(255, 255, 255, 0.5)");
 		
 		if($("#liked").css("display") === "block"){
 			$("#liked").css("display", "none");	
@@ -480,14 +483,14 @@ function likedPet(){
 	
 	var closebtn = document.createElement("button");
 	closebtn.className = "close";
-	closebtn.innerHTML = "Remove animal from likes";
+	closebtn.innerHTML = "Remove from likes";
 	closebtn.setAttribute("onclick", "this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode);");
 	
 	
 	var PetInfoHTML = document.createElement("div");
-	PetInfoHTML.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'><p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p></div>";
+	PetInfoHTML.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'><br><h4>Contact Information</h4><p>"+likedshelter+"</p><p>"+likedemail+"</p><p>"+likedphone+"</p></div>";
 	var PetInfoHTML2 = document.createElement("div");
-	PetInfoHTML2.innerHTML = "<br><br><div class='col2'><p>Animal: "+likedanimal+"</p><ul>Breed: "+likedbreed+"</ul><p>Age: "+likedage+"</p><p>Sex: "+likedsex+"</p><p>Size: "+likedsize+"</p><ul>More Info: "+likedoption+"</ul><p>Description: "+likeddescription+"</p></div>";
+	PetInfoHTML2.innerHTML = "<br><br><div class='col2'><p><h4>Animal:</h4> "+likedanimal+"</p><ul><h4>Breed:</h4> "+likedbreed+"</ul><p><h4>Age:</h4> "+likedage+"</p><p><h4>Sex:</h4> "+likedsex+"</p><p><h4>Size:</h4> "+likedsize+"</p><ul><h4>More Info:</h4> "+likedoption+"</ul><p><h4>Description:</h4> "+likeddescription+"</p></div>";
 	
 	/*newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";*/
 	
