@@ -2,25 +2,25 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T00:11:42Z</timestamp>
+  <timestamp>2016-04-13T00:36:59Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <shelter>
-  <id>FL275</id>
-  <name>Orange County Animal Services</name>
-  <address1>2769 Conroy Road</address1>
+  <id>FL1171</id>
+  <name>LoveyLoaves Sanctuary</name>
+  <address1/>
   <address2/>
   <city>Orlando</city>
   <state>FL</state>
-  <zip>32839</zip>
+  <zip>32825</zip>
   <country>US</country>
-  <latitude>28.4878</latitude>
-  <longitude>-81.4014</longitude>
-  <phone/>
+  <latitude>28.547</latitude>
+  <longitude>-81.2525</longitude>
+  <phone>407-446-2245   </phone>
   <fax/>
-  <email>AnimalServices@ocfl.net</email>
+  <email>cheri@loveyloaves.org</email>
  </shelter>
 </petfinder>

@@ -2,47 +2,58 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-13T00:11:42Z</timestamp>
+  <timestamp>2016-04-13T00:36:59Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>34878793</id>
-  <shelterId>FL275</shelterId>
-  <shelterPetId>A345781</shelterPetId>
-  <name>JESS</name>
-  <animal>Cat</animal>
+  <id>33107034</id>
+  <shelterId>FL1171</shelterId>
+  <shelterPetId/>
+  <name>Trixie</name>
+  <animal>Dog</animal>
   <breeds>
-   <breed>Domestic Short Hair</breed>
+   <breed>Chow Chow</breed>
   </breeds>
-  <mix>no</mix>
-  <age>Young</age>
+  <mix>yes</mix>
+  <age>Senior</age>
   <sex>F</sex>
-  <size>S</size>
-  <options/>
-  <description><![CDATA[]]></description>
-  <lastUpdate>2016-04-12T21:05:39Z</lastUpdate>
+  <size>M</size>
+  <options>
+   <option>hasShots</option>
+   <option>noCats</option>
+   <option>housetrained</option>
+  </options>
+  <description><![CDATA[15 year old Chow mix female, weighs 24#’s
+Friendly with dogs & children (might not be cat friendly)
+Super sweet
+Came in as a stray
+Has hip dysplasia but is not in any pain
+Adoption fee is $135 which includes vaccines, dental, and lifetime microchip registration with Home Again.
+***
+LoveyLoaves is a specially-abled dog rescue based in Orlando, FL. We work to rehabilitate and rehome dogs who have special needs and have been dealt different circumstances in life. The LoveyLoaves adoption application is available at www.LoveyLoaves.org. Prior to being turned over to their forever families, LoveyLoaves requires an adoption fee per dog to cover vetting including neuter, microchip, and vaccinations. Medical records will be transferred to the new pet guardian upon adoption. If you have questions about this dog or about the LoveyLoaves adoption process please feel free to contact us at (407) 446-2245 or at cheri@loveyloaves.org.]]></description>
+  <lastUpdate>2015-08-25T21:08:20Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34878793/1/?bust=1460498309&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33107034/1/?bust=1440536900&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33107034/1/?bust=1440536900&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33107034/1/?bust=1440536900&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33107034/1/?bust=1440536900&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33107034/1/?bust=1440536900&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
-   <address1>2769 Conroy Road</address1>
+   <address1/>
    <address2/>
    <city>Orlando</city>
    <state>FL</state>
-   <zip>32839</zip>
-   <phone/>
+   <zip>32825</zip>
+   <phone>407-446-2245   </phone>
    <fax/>
-   <email>AnimalServices@ocfl.net</email>
+   <email>cheri@loveyloaves.org</email>
   </contact>
  </pet>
 </petfinder>

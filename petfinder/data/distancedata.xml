@@ -2,17 +2,17 @@
 <DistanceMatrixResponse>
  <status>OK</status>
  <origin_address>445 S Magnolia Ave, Orlando, FL 32801, USA</origin_address>
- <destination_address>2769 Conroy Rd, Orlando, FL 32839, USA</destination_address>
+ <destination_address>Orlando, FL, USA</destination_address>
  <row>
   <element>
    <status>OK</status>
    <duration>
-    <value>868</value>
-    <text>14 mins</text>
+    <value>137</value>
+    <text>2 mins</text>
    </duration>
    <distance>
-    <value>10481</value>
-    <text>6.5 mi</text>
+    <value>610</value>
+    <text>0.4 mi</text>
    </distance>
   </element>
  </row>
