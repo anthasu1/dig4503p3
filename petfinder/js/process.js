@@ -471,7 +471,7 @@ function likedPet(){
 	
 	var closebtn = document.createElement("button");
 	closebtn.className = "close";
-	closebtn.innerHTML = "x";
+	closebtn.innerHTML = "Remove animal from likes";
 	closebtn.setAttribute("onclick", "this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode);");
 	
 	
