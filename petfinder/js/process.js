@@ -42,7 +42,7 @@ $(document).ready(function(){
 			$("#animalData").css("display", "block");	
 		}
 		
-		
+		$("#errordiv").empty();
 		
 		if (submitvalue === "YES"){
 			likedPet();
@@ -190,9 +190,17 @@ function ajaxCalls(formData){
 			data: formData,
 			dataType: "text",
 			success: function(result){
-				console.log("php var"+result);
+				console.log(result);
 				
+				if(result === "error"){
+					$("#loading").css("visibility", "hidden");
+					$("#errordiv").html("<p>Something went wrong, try again!</p>");
+					console.log("bleh");
+				}
+				
+				else{
 				console.log("first ajax call success");
+				$("#errordiv").empty();
 	
 				//get the pet data
 				$.ajax({
@@ -432,6 +440,7 @@ function ajaxCalls(formData){
 					}
 				});
 				
+				}
 			}
 	});					
 }	

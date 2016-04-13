@@ -1,6 +1,8 @@
 89@charset "UTF-8";
 /* CSS Document */
 
+html, body {height: 100%}
+
 body{
 	background-image: url("../img/dog4.jpeg");
 	background-repeat: no-repeat;
@@ -10,7 +12,6 @@ body{
 	font-weight: 300;
 }
 
-html, body {height: 100%}
 
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -110,7 +111,8 @@ ul{
 
 #display { width: 71%; float: left;}
 
-#animalData { width: 100%; }
+#animalData { width: 100%;
+				display: none; }
 			
 #nameD{
 		font-family: 'Nunito', sans-serif;

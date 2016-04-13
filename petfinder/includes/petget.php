@@ -39,18 +39,13 @@
 
 	$xml = simplexml_load_file($xmlFile);
 
-	$petid = $xml->pet[0]->id;
-	$petid = (string) $petid;
-	print_r($petid);
+
+	$result = "good";
 	
-	
-			
+		
 		//if failed to grab pet, do it again, 
 		if(!isset($xml->pet[0])){
-			
-			$result = "Something went wrong, please try again!";
-			print_r($result);
-			
+			/*			
 			$petXMLFile = $url; 
    			$petData = simplexml_load_file($petXMLFile);
 	
@@ -58,6 +53,9 @@
     		$petData->asXML("../data/petdata.xml");
 			$xmlFile = "../data/petdata.xml";
 			$xml = simplexml_load_file($xmlFile);
+			*/
+			
+			$result = "error";
 
 		}
 
@@ -92,6 +90,6 @@
 	
 	$distanceData->asXML("../data/distancedata.xml");
 	
-	
+	print_r($result);
 
 ?>
