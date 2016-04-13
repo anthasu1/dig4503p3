@@ -197,7 +197,7 @@ function ajaxCalls(formData){
 				
 				if(result === "error"){
 					$("#loading").css("visibility", "hidden");
-					$("#errordiv").html("<p>Something went wrong, try again!</p>");
+					$("#errordiv").html("<p>Sorry! We couldn't find an animal matching your preferences, try again!</p>");
 					console.log("bleh");
 				}
 				
