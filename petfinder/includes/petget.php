@@ -47,6 +47,10 @@
 			
 		//if failed to grab pet, do it again, 
 		if(!isset($xml->pet[0])){
+			
+			$result = "Something went wrong, please try again!";
+			print_r($result);
+			
 			$petXMLFile = $url; 
    			$petData = simplexml_load_file($petXMLFile);
 	
