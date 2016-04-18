@@ -62,6 +62,13 @@ $(document).ready(function(){
 			$("#hideNseek").css("visibility", "visible");
 		}
 		
+		
+		//if form is resubmitted, reset counter
+		if (submitvalue === "Submit"){
+			counter = 0;	
+		}
+		
+		
 		$("#loading").css("visibility","visible");
 		$("#animalData").css("visibility", "hidden");
 		event.preventDefault();
@@ -141,8 +148,10 @@ $(document).ready(function(){
 		}
 
 		var formData = {
+			'location'	: $("#location").val(),
 			'shelter'	: shelter,
 			'animal'	: animal,
+			'age'		: $("#age").val(),
 			'size'		: $("#size").val(),
 			'sex'		: $("#sex").val(),
 			'counter'	: counter
@@ -246,8 +255,10 @@ function ajaxCalls(formData){
 
 							//petIds for the session are put into an array, this will be accessed later when users wish to see which pets they have liked
 							petId = $(xml).find("id").first().text();
+							console.log("counter="+counter);
 							petArray[counter] = petId;
 							counter++;
+							
 							//console.log(petArray);
 
 
