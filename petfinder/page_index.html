@@ -32,13 +32,21 @@
         <h3>Pick your preferences below:</h3><br>
         
         <form method="POST" name="pets" id="pets">
-            <!-- <input type="text" id="name" placeholder="Nickname"><br> 
-            <input type="text" id="zip" maxlength="5" placeholder="ZIP code"><br> -->
+            <label for="location">ZIP Code</label><br>
+            <input type="text" id="location" maxlength="5" placeholder="ZIP code"><br><br>
             <label for="animal">Type of Animal</label><br>
             <select name="animal" id="animal">
                 <option value="both">Cats &amp; Dogs</option>
                 <option value="cat">Cats</option>
                 <option value="dog">Dogs</option>
+            </select><br><br>
+            <label for="age">Age</label><br>
+            <select name="age" id="age">
+            	<option value="none">No preference</option>
+                <option value="baby">Baby</option>
+                <option value="young">Young</option>
+                <option value="adult">Adult</option>
+                <option value="senior">Senior</option>
             </select><br><br>
             <label for="size">Size</label><br>
             <select name="size" id="size">
