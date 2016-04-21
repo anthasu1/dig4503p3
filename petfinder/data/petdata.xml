@@ -2,22 +2,22 @@
 <petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
  <header>
   <version>0.1</version>
-  <timestamp>2016-04-21T07:44:28Z</timestamp>
+  <timestamp>2016-04-21T16:36:59Z</timestamp>
   <status>
    <code>100</code>
    <message/>
   </status>
  </header>
  <pet>
-  <id>30730047</id>
+  <id>33705695</id>
   <shelterId>FL1238</shelterId>
   <shelterPetId/>
-  <name>Tigger</name>
+  <name>Panther *COURTESY POST*</name>
   <animal>Cat</animal>
   <breeds>
    <breed>Domestic Short Hair</breed>
   </breeds>
-  <mix>no</mix>
+  <mix>yes</mix>
   <age>Young</age>
   <sex>M</sex>
   <size>M</size>
@@ -26,47 +26,25 @@
    <option>altered</option>
    <option>housetrained</option>
   </options>
-  <description><![CDATA[Tigger came to KARE on June 19th, 2014 along with 1 brother and 2 sisters. They were found in an Orlando warehouse under a pallet and no mommy was found. They were about 4 days old. Their estimate birthday is June 16th, 2014. Bree became their surrogate mom.
-
-Tigger is about 1 year and 6 months old. He loves attention. He is friendly,  playful and cuddly. He is great with cats, dogs, kids, rabbits, and ferrets.
-
-Tigger is:
--Neuter
--Tested for Feline Immunodeficiency virus and Feline Leukemia Virus (FIV/FeLV)
--Feline Leukemia vaccine with boosters
--Feline Viral Calici Rhinotracheitis Panleukopenia (FVCRP) vaccine with boosters
--Rabies vaccine
--Fecal tests
--Deworming
--Microchipped
--On monthly flea prevention
--Fed high quality grain free food
--Cared for in a foster home
-
-More photos can be viewed on our facebook page: www.facebook.com/kareofoviedo
-
-Adoption applications are available on our website www.kareoviedo.com
-
-If you want to set up a meet and greet or have any questions please email kareoviedo@gmail.com]]></description>
-  <lastUpdate>2016-02-26T04:42:10Z</lastUpdate>
+  <description><![CDATA[I'm a one year old cuddle bug who was abandoned with my pregnant sister. I’m so thankful for my foster mommy who took us in and already found my sister and her kittens a home. She has taken really good care of me too, but I am not too fond of her 12-year old shih tzu, and her allergies can't handle all the love I have to give. She even got me neutered, vaccinated, and on a flea treatment for my new pet parent(s). My foster mom will also include my litter box and feeding bowls so all you have to do is love me.
+ 
+I love to nuzzle up close under your chin and I give great paw massages. When I have had a really rough day lounging around, playing with my toys or watching for lizards, I like to lay my head on your chest or just sit on your lap while you read a book or watch television. I am a gentle black cat who just wants to be loved forever.
+ 
+All I need is a loving forever home, so please contact my foster mommy, Shannon, at 321-287-4235. Vet reference and $30 donation for KARE Oviedo rescue, please.]]></description>
+  <lastUpdate>2015-11-05T16:43:59Z</lastUpdate>
   <status>A</status>
   <media>
    <photos>
-    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=500&amp;-x.jpg</photo>
-    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=50&amp;-t.jpg</photo>
-    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=500&amp;-x.jpg</photo>
-    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=50&amp;-t.jpg</photo>
-    <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=60&amp;-pnt.jpg</photo>
-    <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=95&amp;-fpm.jpg</photo>
-    <photo id="3" size="x">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=500&amp;-x.jpg</photo>
-    <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=300&amp;-pn.jpg</photo>
-    <photo id="3" size="t">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=50&amp;-t.jpg</photo>
+    <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=500&amp;-x.jpg</photo>
+    <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=50&amp;-t.jpg</photo>
+    <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=60&amp;-pnt.jpg</photo>
+    <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=95&amp;-fpm.jpg</photo>
+    <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=500&amp;-x.jpg</photo>
+    <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=300&amp;-pn.jpg</photo>
+    <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=50&amp;-t.jpg</photo>
    </photos>
   </media>
   <contact>
