@@ -89,67 +89,9 @@ $(document).ready(function(){
 			}
 		}
 
-		var randNumShelter;
-		var shelter;
-
-		if (animal === "cat"){
-			//shelters w cats	
-			randNumShelter = getRandomIntInclusive(0, 6);
-		}
-
-		else {
-			//shelters w dogs
-			randNumShelter = getRandomIntInclusive(2, 8);	
-		}
-
-		//setting shelterID
-		switch (randNumShelter) {
-			//0 - 1 cat shelters
-			case 0:
-				//It's All About Cats Inc.
-				shelter = "FL512";
-				break;
-			case 1:
-				//Aristocats Inc.
-				shelter = "FL912";
-				break;
-			//2 - 6 shelters w cats and dogs	
-			case 2:
-				//Ruff World Animal Rescue
-				shelter = "FL887";
-				break;
-			case 3:
-				//Seminole County Animal Services
-				shelter = "FL306";
-				break;
-			case 4:
-				//Orange County Animal Services
-				shelter = "FL275";
-				break;
-			case 5:
-				//Pet Alliance of Greater Orlando
-				shelter = "FL1397";
-				break;
-			case 6:
-				//Pet Rescue By Judy
-				shelter = "FL189";
-				break;
-			//7 - 8 dogs only
-			case 7:
-				//LovevLoaves Sanctuary
-				shelter = "FL1171";
-				break;
-			case 8:
-				//Sniffing Snouts Pit Bull Rescue
-				shelter = "FL1067";
-				break;	
-			default:
-				shelter = "FL275";
-		}
 
 		var formData = {
 			'location'	: $("#location").val(),
-			'shelter'	: shelter,
 			'animal'	: animal,
 			'age'		: $("#age").val(),
 			'size'		: $("#size").val(),
@@ -188,7 +130,6 @@ function initMap(lat, long) {
 	 var marker = new google.maps.Marker({
    		position: {lat: lat, lng: long},
     	map: map,
-    	title: 'Hello World!'
   	});
 }
 
@@ -378,11 +319,7 @@ function ajaxCalls(formData){
   
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
-  /*
-							$("#nameD").html(name);
-							$("#animalD").html(animal);
-	*/						
-							
+				
 							var counttemp = $(breed).length;
 							for ( var i=0; i < counttemp; i++){
 									$("#breedD").append("<li>"+breed[i]+"</li>");
@@ -400,7 +337,6 @@ function ajaxCalls(formData){
 							
 							$("#descriptionD").html(description);
 							
-
 						}
   					
 							//shelter data
@@ -415,14 +351,25 @@ function ajaxCalls(formData){
 									var shelter;
 									var shelteremail;
 									var shelterphone;
+									var shelteraddress;
+									var sheltercity;
+									var shelterstate;
 									
 									shelter = $(xml).find("name").first().text();
+									shelteraddress = $(xml).find("address1").first().text();
+									sheltercity = $(xml).find("city").first().text();
+									shelterstate = $(xml).find("state").first().text();
 									shelteremail = $(xml).find("email").first().text();
 									shelterphone = $(xml).find("phone").first().text();
 									
-									$("#shelterName").html(shelter);
-									$("#shelterEmail").html(shelteremail);
-									$("#shelterPhone").html(shelterphone);
+									$("#shelterD").html(shelter);
+									
+									if (shelteraddress !== ""){
+										$("#addressD").html(shelteraddress+", ");
+									}
+									$("#citystateD").html(sheltercity+", "+shelterstate);
+									$("#emailD").html(shelteremail);
+									$("#phoneD").html(shelterphone);
 									
 									lat = $(xml).find("latitude").first().text();
 									long = $(xml).find("longitude").first().text();

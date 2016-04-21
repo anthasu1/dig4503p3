@@ -16,38 +16,45 @@
 	$age = $_POST['age'];
 	
 	
-	$data = json_decode($_POST['counter']);
+	$count = json_decode($_POST['counter']);
 
-	$url = "http://api.petfinder.com/pet.find?key=c7452e442de15b804ecd198b0d96d57f&output=full&location=".$location."&animal=".$animal;
+	if ($count === 0){
+
+		$url = "http://api.petfinder.com/pet.find?key=c7452e442de15b804ecd198b0d96d57f&output=full&location=".$location."&animal=".$animal;
 
 	
 //	$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&shelterid=".$shelterid."&animal=".$animal;
 	
-	if($age != "none"){
-		$url .= "&age=".$age;	
-	}
+		if($age != "none"){
+			$url .= "&age=".$age;	
+		}
 	
-	if ($size != "none"){
-		$url .= "&size=".$size;
-	}
+		if ($size != "none"){
+			$url .= "&size=".$size;
+		}
 	
-	if($sex != "none"){
-		$url .= "&sex=".$sex;	
-	}
+		if($sex != "none"){
+			$url .= "&sex=".$sex;	
+		}
+	
+	
 	
 	//$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&location=". $zipcode."&animal=".$animal."&size=".$size."&sex=".$sex;
 	
 	//$url = "http://api.petfinder.com/pet.getRandom?key=c7452e442de15b804ecd198b0d96d57f&output=full&shelterid=".$shelterid."&animal=".$animal."&size=".$size."&sex=".$sex;
 	
-	$resultsXMLFile = $url;
-	$resultsData = simplexml_load_file($resultsXMLFile);
+		$resultsXMLFile = $url;
+		$resultsData = simplexml_load_file($resultsXMLFile);
 	
-	$resultsData->asXML("../data/results.xml");
+		$resultsData->asXML("../data/results.xml");
+	}
+	
+	
 	$xmlFile = "../data/results.xml";
 	
 	$xml = simplexml_load_file($xmlFile);
 	
-	$petid = $xml->pets[0]->pet[$data]->id;
+	$petid = $xml->pets[0]->pet[$count]->id;
 	
 	$peturl = "http://api.petfinder.com/pet.get?key=c7452e442de15b804ecd198b0d96d57f&id=".$petid;
 	
