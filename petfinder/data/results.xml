@@ -1,1 +1,1297 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+ <header>
+  <version>0.1</version>
+  <timestamp>2016-04-21T07:44:27Z</timestamp>
+  <status>
+   <code>100</code>
+   <message/>
+  </status>
+ </header>
+ <lastOffset>25</lastOffset>
+ <pets>
+  <pet>
+   <id>30730047</id>
+   <shelterId>FL1238</shelterId>
+   <shelterPetId/>
+   <name>Tigger</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>no</mix>
+   <age>Young</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Tigger came to KARE on June 19th, 2014 along with 1 brother and 2 sisters. They were found in an Orlando warehouse under a pallet and no mommy was found. They were about 4 days old. Their estimate birthday is June 16th, 2014. Bree became their surrogate mom.
+
+Tigger is about 1 year and 6 months old. He loves attention. He is friendly,  playful and cuddly. He is great with cats, dogs, kids, rabbits, and ferrets.
+
+Tigger is:
+-Neuter
+-Tested for Feline Immunodeficiency virus and Feline Leukemia Virus (FIV/FeLV)
+-Feline Leukemia vaccine with boosters
+-Feline Viral Calici Rhinotracheitis Panleukopenia (FVCRP) vaccine with boosters
+-Rabies vaccine
+-Fecal tests
+-Deworming
+-Microchipped
+-On monthly flea prevention
+-Fed high quality grain free food
+-Cared for in a foster home
+
+More photos can be viewed on our facebook page: www.facebook.com/kareofoviedo
+
+Adoption applications are available on our website www.kareoviedo.com
+
+If you want to set up a meet and greet or have any questions please email kareoviedo@gmail.com]]></description>
+   <lastUpdate>2016-02-26T04:42:10Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/30730047/1/?bust=1426068536&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/30730047/2/?bust=1429217661&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/30730047/3/?bust=1429217662&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Oviedo</city>
+    <state>FL</state>
+    <zip>32766</zip>
+    <phone>  </phone>
+    <fax/>
+    <email>kareoviedo@gmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>33705695</id>
+   <shelterId>FL1238</shelterId>
+   <shelterPetId/>
+   <name>Panther *COURTESY POST*</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[I'm a one year old cuddle bug who was abandoned with my pregnant sister. I’m so thankful for my foster mommy who took us in and already found my sister and her kittens a home. She has taken really good care of me too, but I am not too fond of her 12-year old shih tzu, and her allergies can't handle all the love I have to give. She even got me neutered, vaccinated, and on a flea treatment for my new pet parent(s). My foster mom will also include my litter box and feeding bowls so all you have to do is love me.
+ 
+I love to nuzzle up close under your chin and I give great paw massages. When I have had a really rough day lounging around, playing with my toys or watching for lizards, I like to lay my head on your chest or just sit on your lap while you read a book or watch television. I am a gentle black cat who just wants to be loved forever.
+ 
+All I need is a loving forever home, so please contact my foster mommy, Shannon, at 321-287-4235. Vet reference and $30 donation for KARE Oviedo rescue, please.]]></description>
+   <lastUpdate>2015-11-05T16:43:59Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33705695/1/?bust=1446741620&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33705695/2/?bust=1446741621&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Oviedo</city>
+    <state>FL</state>
+    <zip>32766</zip>
+    <phone>  </phone>
+    <fax/>
+    <email>kareoviedo@gmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>27523139</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Penny Lane (SD)</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tabby</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Penny Lane is friendly and outgoing...a real SWEETHEART! Contact her foster mom directly saradixon@gmail.com for more information. Penny's adoption fee is $50. (Please do not contact the rescue.)]]></description>
+   <lastUpdate>2015-03-02T05:00:21Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/27523139/1/?bust=1387126827&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/27523139/1/?bust=1387126827&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/27523139/1/?bust=1387126827&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/27523139/1/?bust=1387126827&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/27523139/1/?bust=1387126827&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>28280875</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Butternut</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tabby</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>specialNeeds</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[You can fill out an adoption application online on our official website.
+
+ CONTACT HOLLY at hollyluisi@gmail.com This is a courtesy post. Please do not contact the rescue directly. Thanks!
+
+ Butternut is an amazingly sweet boy! He was found outdoors but had been owned as he was already neutered. However - and don't let this alarm you -- he is FIV positive. Cats with FIV can live LONG HEALTHY LIVES - if kept INDOORS! (I personally have an FIV cat that is about 12 yrs old!). He did get along with another cat that was found outdoors - but from here on out should only be with other FIV+ cats. Not sure if he gets along with dogs - but he very well might! And FIV can NOT be passed on to dogs. He LOVES his toys, catnip and a lap to sit on. Please email us if you are interested in meeting this wonderful guy! Thanks!
+
+ CONTACT HOLLY at hollyluisi@gmail.com This is a courtesy post. Please do not contact the rescue directly. Thanks!]]></description>
+   <lastUpdate>2014-01-12T05:01:19Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/28280875/1/?bust=1389502877&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/28280875/1/?bust=1389502877&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/28280875/1/?bust=1389502877&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/28280875/1/?bust=1389502877&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/28280875/1/?bust=1389502877&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/28280875/2/?bust=1389502878&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/28280875/2/?bust=1389502878&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/28280875/2/?bust=1389502878&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/28280875/2/?bust=1389502878&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/28280875/2/?bust=1389502878&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/28280875/3/?bust=1389502878&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/28280875/3/?bust=1389502878&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/28280875/3/?bust=1389502878&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/28280875/3/?bust=1389502878&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/28280875/3/?bust=1389502878&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>29060497</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>KitKat</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>no</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[KitKat is a totally awesome cat. He is currently earning his keep by being a blood donor at a vet hospital. He is so easy-going that anything is fine with him. He loves everyone and any kind of petting and attention. He is such a cool cat that he deserves to retire and have his own cushy home and loving person.
+
+ If you think that you might be that person, please contact Murphy Vet Clinic at (407)323-4707 and tell them you're interested in adopting KitKat.]]></description>
+   <lastUpdate>2014-05-31T04:32:22Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/29060497/1/?bust=1398312074&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/29060497/1/?bust=1398312074&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/29060497/1/?bust=1398312074&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/29060497/1/?bust=1398312074&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/29060497/1/?bust=1398312074&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/29060497/2/?bust=1398312075&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/29060497/2/?bust=1398312075&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/29060497/2/?bust=1398312075&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/29060497/2/?bust=1398312075&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/29060497/2/?bust=1398312075&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/29060497/3/?bust=1398312075&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/29060497/3/?bust=1398312075&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/29060497/3/?bust=1398312075&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/29060497/3/?bust=1398312075&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/29060497/3/?bust=1398312075&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>29186306</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Lucy (SD)</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>altered</option>
+   </options>
+   <description><![CDATA[Lucy is a true LOVE BUG! If you want a lap cat then this sweet girl is the one for you. Contact her foster mom directly saradixon@gmail.com for more information. (Please do not contact the rescue. Thanks!)  Lucy's adoption fee is $50.]]></description>
+   <lastUpdate>2015-03-02T05:00:26Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/29186306/1/?bust=1416978030&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/29186306/1/?bust=1416978030&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/29186306/1/?bust=1416978030&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/29186306/1/?bust=1416978030&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/29186306/1/?bust=1416978030&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/29186306/2/?bust=1416978031&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/29186306/2/?bust=1416978031&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/29186306/2/?bust=1416978031&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/29186306/2/?bust=1416978031&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/29186306/2/?bust=1416978031&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>30251674</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Frito (WG)</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tabby</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>specialNeeds</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[CONTACT: wendygeller@earthlink.net  Do NOT email the rescue.
+
+ This is a courtesy post - Frito and his BFF - who happens to be his sister Skittles- are looking for a home. They are both FIV+ but we are hoping they will shed the virus and be negative in a few month's time like their other siblings. They are friendly and VERY affectionate, get along with other cats and dogs as well!
+ Please email wendygeller@earthlink.net if you feel you can provide a loving home for Skittles and/or Frito!  Adoption fee is $50
+
+ (The poster personally has an FIV cat that is going on 15yr old - FIV cats can live a very long and healthy life if kept indoors, fed good food and cared for!)]]></description>
+   <lastUpdate>2014-10-04T21:01:06Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/30251674/1/?bust=1412456465&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/30251674/1/?bust=1412456465&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/30251674/1/?bust=1412456465&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/30251674/1/?bust=1412456465&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/30251674/1/?bust=1412456465&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>31587690</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Autumn (SD)</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tortoiseshell</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Autumn is practically perfect in every way! She gets along great with other cats, dogs and kids. She has a mellow personality and loves laying on your lap. Please contact her foster mom directly sara@flyelite.com if you would like to meet this very sweet girl. (Please do not contact the rescue. Thanks!)  Autumn's adoption fee is $50.]]></description>
+   <lastUpdate>2015-03-02T05:01:57Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31587690/1/?bust=1425272517&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31587690/1/?bust=1425272517&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31587690/1/?bust=1425272517&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31587690/1/?bust=1425272517&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31587690/1/?bust=1425272517&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>33439916</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Rudy (wg)</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Maine Coon</breed>
+    <breed>Tabby</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>L</size>
+   <options>
+    <option>noClaws</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[For information or an application please email the foster home directly: wendygeller@earthlink.net
+
+  We do not ship out of state. Please note he cannot go to a home with children! Rudy is a very sweet and friendly loving boy who came from the local animal control facility due to biting his owner. He is not too keen on grooming and it is needed at times. He is a beautiful Maine Coon mix! 2.5 yr old. Gets along with other cats and ignores the dogs although at times he will go after one of the more mellow female cats in the foster home.  He attaches himself to one person, will sit in a lap any chance he can get and follow that person around!  He's the type of cat that will usually give you a warning sign when he's had too much petting / stimulation. At that point, you need to just leave him be.  He's been in the foster home several months now without issue. Rudy is neutered, up to date on all shots and his microchipped. His adoption fee is $125.]]></description>
+   <lastUpdate>2016-02-08T16:09:36Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33439916/1/?bust=1454947775&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33439916/1/?bust=1454947775&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33439916/1/?bust=1454947775&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33439916/1/?bust=1454947775&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33439916/1/?bust=1454947775&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33439916/2/?bust=1454947775&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33439916/2/?bust=1454947775&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33439916/2/?bust=1454947775&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33439916/2/?bust=1454947775&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33439916/2/?bust=1454947775&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/33439916/3/?bust=1454947776&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/33439916/3/?bust=1454947776&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/33439916/3/?bust=1454947776&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/33439916/3/?bust=1454947776&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/33439916/3/?bust=1454947776&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34197665</id>
+   <shelterId>FL887</shelterId>
+   <shelterPetId/>
+   <name>Selena - wg</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tabby</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>altered</option>
+   </options>
+   <description><![CDATA[THIS IS A COURTESY POST - PLEASE EMAIL barbaram@carefelinetnr.org DIRECTLY. Thanks !!
+
+ Selena needs a place to call her own! She is a wonderful lap cat and is healthy as can be. Her foster has gotten her to put on some weight and she is a beauty. Selena is 2 years old, already spayed and has been tested for FIV and FeLV and both are negative. 
+
+ This loving kitty would be a great companion cat for an older person who doesn't want a frisky kitten and prefers a more mellow kitty to hang out with! 
+
+ Please let me know when you want her to join your family!! barbaram@carefelinetnr.org]]></description>
+   <lastUpdate>2016-01-09T04:09:40Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34197665/1/?bust=1452312578&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34197665/1/?bust=1452312578&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34197665/1/?bust=1452312578&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34197665/1/?bust=1452312578&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34197665/1/?bust=1452312578&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34197665/2/?bust=1452312579&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34197665/2/?bust=1452312579&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34197665/2/?bust=1452312579&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34197665/2/?bust=1452312579&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34197665/2/?bust=1452312579&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34197665/3/?bust=1452312580&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34197665/3/?bust=1452312580&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34197665/3/?bust=1452312580&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34197665/3/?bust=1452312580&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34197665/3/?bust=1452312580&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1/>
+    <address2/>
+    <city>Winter Park</city>
+    <state>FL</state>
+    <zip>32792</zip>
+    <phone>321-277-8427  </phone>
+    <fax/>
+    <email>clvaughn1@hotmail.com</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>26413817</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A273419 Amber</shelterPetId>
+   <name>Amber</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair-black</breed>
+   </breeds>
+   <mix>no</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Amber is a lovable 2 year old female.  She is a very social, playful girl and is ready to become the center of attention in your life!  She weighs 10 pounds and gets along well with other cats.  Amber is currently in a loving foster home, for information about adopting her contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-02-09T02:07:26Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/26413817/1/?bust=1374768310&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/26413817/1/?bust=1374768310&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/26413817/1/?bust=1374768310&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/26413817/1/?bust=1374768310&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/26413817/1/?bust=1374768310&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/26413817/2/?bust=1437402701&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/26413817/2/?bust=1437402701&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/26413817/2/?bust=1437402701&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/26413817/2/?bust=1437402701&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/26413817/2/?bust=1437402701&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/26413817/3/?bust=1454983646&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/26413817/3/?bust=1454983646&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/26413817/3/?bust=1454983646&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/26413817/3/?bust=1454983646&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/26413817/3/?bust=1454983646&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>26786333</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A271358</shelterPetId>
+   <name>Mary Kate</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair-black</breed>
+   </breeds>
+   <mix>no</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Mary Kate is a lovely 3 year old female.  She is a very quiet, timid girl.  Sadly, she came with several other cats to the shelter when her owner passed away.  They are now currently in foster care awaiting a loving home.  To see her (reference ID A271358) or any of the others, you can contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2014-12-29T20:29:35Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/26786333/1/?bust=1374780056&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/26786333/1/?bust=1374780056&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/26786333/1/?bust=1374780056&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/26786333/1/?bust=1374780056&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/26786333/1/?bust=1374780056&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/26786333/2/?bust=1374780057&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/26786333/2/?bust=1374780057&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/26786333/2/?bust=1374780057&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/26786333/2/?bust=1374780057&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/26786333/2/?bust=1374780057&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/26786333/3/?bust=1374780058&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/26786333/3/?bust=1374780058&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/26786333/3/?bust=1374780058&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/26786333/3/?bust=1374780058&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/26786333/3/?bust=1374780058&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>30143244</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A294777</shelterPetId>
+   <name>Miss Tracy</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Tiger</breed>
+    <breed>Domestic Short Hair - brown</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Miss Tracy is a sweet 6 year old female. She came to the shelter as a stray and is looking for a new family to love.  She is very shy and would do great in a quiet home with owners that have extra patience and love to share to help her come out of her shell.  Miss Tracy weighs 9 pounds and she is currently in loving foster care ready for adoption.  For information on adopting her contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2014-08-27T23:42:00Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/30143244/1/?bust=1409182845&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/30143244/1/?bust=1409182845&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/30143244/1/?bust=1409182845&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/30143244/1/?bust=1409182845&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/30143244/1/?bust=1409182845&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/30143244/2/?bust=1409182845&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/30143244/2/?bust=1409182845&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/30143244/2/?bust=1409182845&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/30143244/2/?bust=1409182845&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/30143244/2/?bust=1409182845&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/30143244/3/?bust=1409182846&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/30143244/3/?bust=1409182846&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/30143244/3/?bust=1409182846&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/30143244/3/?bust=1409182846&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/30143244/3/?bust=1409182846&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>31911582</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>301018 Laney</shelterPetId>
+   <name>Laney</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Manx</breed>
+    <breed>Domestic Short Hair</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Lainey is a sweet adult female who came to the shelter as a stray.  She was pregnant at the time, and has since shown an amazingly caring maternal side of herself as she has raised her four kitties.  Lainey is an affectionate cat who loves to be scratched under the chin, and purrs loudly to show her appreciation. She is litter box trained and a very clean cat. If you are looking for a sweet companion, Lainey is definitely worth meeting!   
+
+Lainey is ready for a home of her own!  She is currently in a loving foster home and will be spayed before going to her forever home.  If you are interested in meeting Lainey, please reference Laney's ID number A301018 and contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2015-12-04T03:56:07Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31911582/1/?bust=1428960676&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31911582/1/?bust=1428960676&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31911582/1/?bust=1428960676&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31911582/1/?bust=1428960676&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31911582/1/?bust=1428960676&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/31911582/2/?bust=1428960676&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/31911582/2/?bust=1428960676&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/31911582/2/?bust=1428960676&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/31911582/2/?bust=1428960676&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/31911582/2/?bust=1428960676&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <name>Diane Gagliano</name>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208</phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>31921142</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A299213 Dolly</shelterPetId>
+   <name>Dolly</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair-black and white</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>noDogs</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Dolly is a cute 1 year old female.  She came to the shelter with her babies and was placed in foster care.  Since then, all her babies have found homes and now it's Dolly's turn!  She loves to be petted and seeks out attention.  She gets along well with other cats but needs to be in a home without dogs.  At only 1, Dolly is very playful and would love a new home to call her own!
+
+Dolly is currently in a loving foster home, for information about adopting her, please reference Dolly's ID 299213 and contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2015-07-02T02:08:07Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/31921142/1/?bust=1429055388&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/31921142/1/?bust=1429055388&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/31921142/1/?bust=1429055388&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/31921142/1/?bust=1429055388&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/31921142/1/?bust=1429055388&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/31921142/2/?bust=1429055389&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/31921142/2/?bust=1429055389&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/31921142/2/?bust=1429055389&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/31921142/2/?bust=1429055389&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/31921142/2/?bust=1429055389&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>32723853</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A304670 Bear</shelterPetId>
+   <name>Bear</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair - brown</breed>
+    <breed>Tiger</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>L</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Bear is a handsome 4 year old male. He came to the shelter because his owner could no longer care for him. Bear prefers the quiet life with older children and adults. Won't you please give this guy the forever home he is looking for? Bear weighs 15 pounds, gets along well with other cats, and is already neutered, so he can go to his forever home the same day he is adopted!
+
+Reference Bear's ID number A304670. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-02-01T03:07:47Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/32723853/1/?bust=1454296067&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/32723853/1/?bust=1454296067&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/32723853/1/?bust=1454296067&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/32723853/1/?bust=1454296067&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/32723853/1/?bust=1454296067&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/32723853/2/?bust=1454296068&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/32723853/2/?bust=1454296068&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/32723853/2/?bust=1454296068&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/32723853/2/?bust=1454296068&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/32723853/2/?bust=1454296068&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/32723853/3/?bust=1438012777&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/32723853/3/?bust=1438012777&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/32723853/3/?bust=1438012777&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/32723853/3/?bust=1438012777&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/32723853/3/?bust=1438012777&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>33037187</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A305768 Heidi</shelterPetId>
+   <name>Whiskey</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+    <breed>Tortoiseshell</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Whiskey is a pretty 3 year old female.  She came to the shelter because her owner could no longer care for her.  Whiskey weighs 9 pounds, gets along well with other cats, and she is already spayed, so she can go home the same day she is adopted!
+
+Reference Whiskey's ID number A305768.  For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-18T05:09:04Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33037187/1/?bust=1439843143&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33037187/1/?bust=1439843143&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33037187/1/?bust=1439843143&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33037187/1/?bust=1439843143&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33037187/1/?bust=1439843143&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33037187/2/?bust=1439843144&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33037187/2/?bust=1439843144&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33037187/2/?bust=1439843144&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33037187/2/?bust=1439843144&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33037187/2/?bust=1439843144&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>33090195</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A305878 Crystal</shelterPetId>
+   <name>Crystal</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair - gray and white</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Crystal is a pretty 4 year old female.  She came to the shelter because her owner could no longer care for her.  She would love a new home to be spoiled and loved!  Crystal gets along well with other cats and is already spayed, so she can go to her forever home the same day she is adopted!
+
+Reference Crystal's ID number A305878. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-02T02:14:35Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33090195/1/?bust=1440364894&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33090195/1/?bust=1440364894&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33090195/1/?bust=1440364894&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33090195/1/?bust=1440364894&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33090195/1/?bust=1440364894&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33090195/2/?bust=1440364895&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33090195/2/?bust=1440364895&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33090195/2/?bust=1440364895&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33090195/2/?bust=1440364895&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33090195/2/?bust=1440364895&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>33962771</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A308911 Timmy</shelterPetId>
+   <name>Timmy</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair-black</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Timmy is a sweet 4 year old male.  He came to the shelter as a stray.  He's a little shy and would love a patient owner to show him the world isn't such a scary place.  TImmy weighs 9 pounds, gets along well with other cats, and he is already neutered so he can go to his forever home the same day he is adopted!
+
+Reference Timmy's ID number A308911. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-02-01T03:51:40Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/33962771/1/?bust=1454298700&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/33962771/1/?bust=1454298700&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/33962771/1/?bust=1454298700&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/33962771/1/?bust=1454298700&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/33962771/1/?bust=1454298700&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/33962771/2/?bust=1451277598&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/33962771/2/?bust=1451277598&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/33962771/2/?bust=1451277598&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/33962771/2/?bust=1451277598&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/33962771/2/?bust=1451277598&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/33962771/3/?bust=1450751828&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/33962771/3/?bust=1450751828&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/33962771/3/?bust=1450751828&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/33962771/3/?bust=1450751828&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/33962771/3/?bust=1450751828&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34164946</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A309975 Angel</shelterPetId>
+   <name>Angel</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+    <breed>Dilute Tortoiseshell</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Angel is a loving 4 year old female.  She came to the shelter because her owner could no longer care for her.  Angel weighs 10 pounds, gets along well with other cats, and is already spayed so she can go to her forever home the same day she is adopted!
+
+Reference Angel's ID number A309975.  For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-19T20:59:07Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34164946/1/?bust=1452010781&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34164946/1/?bust=1452010781&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34164946/1/?bust=1452010781&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34164946/1/?bust=1452010781&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34164946/1/?bust=1452010781&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34164946/2/?bust=1452010781&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34164946/2/?bust=1452010781&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34164946/2/?bust=1452010781&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34164946/2/?bust=1452010781&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34164946/2/?bust=1452010781&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34210493</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A310023 Peepers</shelterPetId>
+   <name>Peepers</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair - orange and white</breed>
+    <breed>Tiger</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Peepers is a handsome 3 year old male.  He came to the shelter as a stray and would love a new home to call his own.  Peepers weighs 10 pounds, gets along well with other cats, and he is already neutered so he can go to his forever home the same day he is adopted!
+
+Reference Peeper's ID number A310023. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-04T01:21:46Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34210493/1/?bust=1459732906&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34210493/1/?bust=1459732906&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34210493/1/?bust=1459732906&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34210493/1/?bust=1459732906&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34210493/1/?bust=1459732906&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34210493/2/?bust=1452485377&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34210493/2/?bust=1452485377&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34210493/2/?bust=1452485377&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34210493/2/?bust=1452485377&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34210493/2/?bust=1452485377&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34210493/3/?bust=1454297744&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34210493/3/?bust=1454297744&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34210493/3/?bust=1454297744&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34210493/3/?bust=1454297744&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34210493/3/?bust=1454297744&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34276946</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A310487 Betsy</shelterPetId>
+   <name>Betsy</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair</breed>
+    <breed>Tiger</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Baby</age>
+   <sex>F</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Betsy is a cute 10 month old baby girl.  She came to the shelter because her owner could no longer care for her.   Betsy gets along well with other cats and she will be spayed before going to her forever home.
+
+Betsy is currently in a loving foster home.  For more information on her, reference Betsy's ID number A310487 and contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-01-27T12:25:19Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34276946/1/?bust=1453236622&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34276946/1/?bust=1453236622&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34276946/1/?bust=1453236622&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34276946/1/?bust=1453236622&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34276946/1/?bust=1453236622&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34276946/2/?bust=1453236623&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34276946/2/?bust=1453236623&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34276946/2/?bust=1453236623&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34276946/2/?bust=1453236623&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34276946/2/?bust=1453236623&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <name>Diane Gagliano</name>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208</phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34279994</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A310514 Sully</shelterPetId>
+   <name>Sully</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair-black and white</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Adult</age>
+   <sex>M</sex>
+   <size>L</size>
+   <options>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Sully is a handsome 4 year old male.  He came to the shelter because his owner could no longer care for him.  He would love a new home to call his own!  Sully weighs 17 pounds, gets along well with other cats, and he is already neutered so he can go to his forever home the same day he is adopted!
+
+Reference Sully's ID number A310514. For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-19T03:05:30Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34279994/1/?bust=1453256039&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34279994/1/?bust=1453256039&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34279994/1/?bust=1453256039&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34279994/1/?bust=1453256039&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34279994/1/?bust=1453256039&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34279994/2/?bust=1453256040&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34279994/2/?bust=1453256040&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34279994/2/?bust=1453256040&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34279994/2/?bust=1453256040&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34279994/2/?bust=1453256040&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34279994/3/?bust=1454297467&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34279994/3/?bust=1454297467&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34279994/3/?bust=1454297467&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34279994/3/?bust=1454297467&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34279994/3/?bust=1454297467&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34367293</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A310583 Aquarius</shelterPetId>
+   <name>Aquarius</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Medium Hair-black and white</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>hasShots</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Aquarius is a cute 2 year old male.  He came to the shelter as a stray and can't wait for a new home to call his own!  Aquarius is a little shy at the shelter but with some love and attention warms up.  He weighs 7 pounds, gets along well with other cats, and he will be neutered before going to his forever home.
+
+Reference Aquarius' ID number A310583.  For more information about adopting from Seminole County Animal Services contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-02-15T15:12:50Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34367293/1/?bust=1454331981&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34367293/1/?bust=1454331981&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34367293/1/?bust=1454331981&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34367293/1/?bust=1454331981&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34367293/1/?bust=1454331981&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34367293/2/?bust=1454331982&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34367293/2/?bust=1454331982&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34367293/2/?bust=1454331982&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34367293/2/?bust=1454331982&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34367293/2/?bust=1454331982&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34367293/3/?bust=1455549170&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34367293/3/?bust=1455549170&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34367293/3/?bust=1455549170&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34367293/3/?bust=1455549170&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34367293/3/?bust=1455549170&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+  <pet>
+   <id>34417766</id>
+   <shelterId>FL306</shelterId>
+   <shelterPetId>A309944 Oliver</shelterPetId>
+   <name>Oliver</name>
+   <animal>Cat</animal>
+   <breeds>
+    <breed>Domestic Short Hair - buff</breed>
+    <breed>Tiger</breed>
+   </breeds>
+   <mix>yes</mix>
+   <age>Young</age>
+   <sex>M</sex>
+   <size>M</size>
+   <options>
+    <option>specialNeeds</option>
+    <option>hasShots</option>
+    <option>altered</option>
+    <option>housetrained</option>
+   </options>
+   <description><![CDATA[Oliver is an adorable 1 year old male.  He super sweet, playful, and fun!  He loves attention and will keep you entertained for hours!  Oliver gets along well with other cats and he's already neutered, so he can go home with you today!  Oliver is listed as "special needs" but really, it's as simple as a specific type of food.  His tummy does best on it.  
+
+Oliver is currently in a loving foster home.  For more inforamtion on him, reference his ID number A309944 and contact Diane Gagliano at 407-665-5208 or DGagliano@seminolecountyfl.gov]]></description>
+   <lastUpdate>2016-04-19T19:48:19Z</lastUpdate>
+   <status>A</status>
+   <media>
+    <photos>
+     <photo id="1" size="pnt">http://photos.petfinder.com/photos/pets/34417766/1/?bust=1454936292&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="1" size="fpm">http://photos.petfinder.com/photos/pets/34417766/1/?bust=1454936292&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="1" size="x">http://photos.petfinder.com/photos/pets/34417766/1/?bust=1454936292&amp;width=500&amp;-x.jpg</photo>
+     <photo id="1" size="pn">http://photos.petfinder.com/photos/pets/34417766/1/?bust=1454936292&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="1" size="t">http://photos.petfinder.com/photos/pets/34417766/1/?bust=1454936292&amp;width=50&amp;-t.jpg</photo>
+     <photo id="2" size="pnt">http://photos.petfinder.com/photos/pets/34417766/2/?bust=1461095299&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="2" size="fpm">http://photos.petfinder.com/photos/pets/34417766/2/?bust=1461095299&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="2" size="x">http://photos.petfinder.com/photos/pets/34417766/2/?bust=1461095299&amp;width=500&amp;-x.jpg</photo>
+     <photo id="2" size="pn">http://photos.petfinder.com/photos/pets/34417766/2/?bust=1461095299&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="2" size="t">http://photos.petfinder.com/photos/pets/34417766/2/?bust=1461095299&amp;width=50&amp;-t.jpg</photo>
+     <photo id="3" size="pnt">http://photos.petfinder.com/photos/pets/34417766/3/?bust=1456953661&amp;width=60&amp;-pnt.jpg</photo>
+     <photo id="3" size="fpm">http://photos.petfinder.com/photos/pets/34417766/3/?bust=1456953661&amp;width=95&amp;-fpm.jpg</photo>
+     <photo id="3" size="x">http://photos.petfinder.com/photos/pets/34417766/3/?bust=1456953661&amp;width=500&amp;-x.jpg</photo>
+     <photo id="3" size="pn">http://photos.petfinder.com/photos/pets/34417766/3/?bust=1456953661&amp;width=300&amp;-pn.jpg</photo>
+     <photo id="3" size="t">http://photos.petfinder.com/photos/pets/34417766/3/?bust=1456953661&amp;width=50&amp;-t.jpg</photo>
+    </photos>
+   </media>
+   <contact>
+    <address1>232 Bush Blvd</address1>
+    <address2/>
+    <city>Sanford</city>
+    <state>FL</state>
+    <zip>32773</zip>
+    <phone>407-665-5208 </phone>
+    <fax>407-665-5213</fax>
+    <email>dgagliano@seminolecountyfl.gov</email>
+   </contact>
+  </pet>
+ </pets>
+</petfinder>
