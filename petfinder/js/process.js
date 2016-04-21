@@ -73,26 +73,9 @@ $(document).ready(function(){
 		$("#animalData").css("visibility", "hidden");
 		event.preventDefault();
 
-		//when selecting both, randomly choose either cat or dog
-		var animal = $("#animal").val();
-		if (animal === "both"){
-
-			//deciding cat or dog
-			var randNumAnimal = getRandomIntInclusive(0,1);			
-
-			if (randNumAnimal === 1){
-				animal = "cat";
-			}
-
-			else{
-				animal = "dog";	
-			}
-		}
-
-
 		var formData = {
 			'location'	: $("#location").val(),
-			'animal'	: animal,
+			'animal'	: $("#animal").val(),
 			'age'		: $("#age").val(),
 			'size'		: $("#size").val(),
 			'sex'		: $("#sex").val(),
@@ -113,11 +96,6 @@ $(document).ready(function(){
 	});
 	
 });
-
-function getRandomIntInclusive(min, max) {
-	"use strict";
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
 function initMap(lat, long) {
 	"use strict";	
@@ -421,8 +399,10 @@ function likedPet(){
 	var likedphoto = $("#photoD").attr("src");
 	
 	var likedshelter = $("#shelterName").text();
-	var likedemail = $("#shelterEmail").text();
-	var likedphone = $("#shelterPhone").text();
+	var likedaddress = $("#addressD").text();
+	var likedcitystate = $("#citystateD").text();
+	var likedemail = $("#emailD").text();
+	var likedphone = $("#phoneD").text();
 	
 	var newWrapperDiv = document.createElement("div");
 	newWrapperDiv.className = "accordwrap";
