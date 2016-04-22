@@ -8,6 +8,7 @@ $(document).ready(function(){
 	$("#hideNseek").click(function(){
 		$("#animalData").toggle();
 		$("#liked").toggle();
+		$("#pets").toggle();
 		
 		if($("#yes").css("visibility") === "hidden"){
 			$("#yes").css("visibility", "visible");
