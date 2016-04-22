@@ -1,28 +1,24 @@
 // JavaScript Document
-
-	var petArray = [];
 	var counter = 0;
-
+	var offset = 0;
+	
 $(document).ready(function(){
 	"use strict";
 	
-	$(".close").click(function(){
-		console.log("clicked");
-	}); 
-
 	$("#hideNseek").click(function(){
-		
 		$("#animalData").toggle();
 		$("#liked").toggle();
 		
 		if($("#yes").css("visibility") === "hidden"){
 			$("#yes").css("visibility", "visible");
 			$("#no").css("visibility", "visible");
+			$("#hideNseek").html("Click here to view your liked pets");
 		}
 		
 		else{ 
 			$("#yes").css("visibility", "hidden");
 			$("#no").css("visibility", "hidden");
+			$("#hideNseek").html("Click here to view more pets");
 		}
 	});
 
@@ -30,7 +26,6 @@ $(document).ready(function(){
 		event.preventDefault();
 		var submitvalue;
 		submitvalue = $(document.activeElement).val();
-		console.log(submitvalue);
 
 		$("body").css("background-image", "url('img/pawseam2.png')");
 		$("body").css("background-repeat", "repeat");
@@ -68,7 +63,6 @@ $(document).ready(function(){
 			counter = 0;	
 		}
 		
-		
 		$("#loading").css("visibility","visible");
 		$("#animalData").css("visibility", "hidden");
 		event.preventDefault();
@@ -79,19 +73,13 @@ $(document).ready(function(){
 			'age'		: $("#age").val(),
 			'size'		: $("#size").val(),
 			'sex'		: $("#sex").val(),
-			'counter'	: counter
+			'counter'	: counter,
+			'offset'	: offset
 		};
 
 		console.log(formData);
 		
 		ajaxCalls(formData);
-
-/*
-		$("#yes").css("visibility", "visible");
-		$("#no").css("visibility", "visible");
-	*/	
-		
-		console.log(petArray);
 		
 	});
 	
@@ -111,10 +99,8 @@ function initMap(lat, long) {
   	});
 }
 
-
 function ajaxCalls(formData){
 	"use strict";
-	//var petId;
 	$.ajax({
 			type: "POST",
 			url: "includes/petget.php",
@@ -122,10 +108,9 @@ function ajaxCalls(formData){
 			dataType: "text",
 			success: function(result){
 				console.log(result);
-				
 				if(result === "error"){
 					$("#loading").css("visibility", "hidden");
-					$("#errordiv").html("<p>Sorry! We couldn't find an animal matching your preferences, try again!</p>");
+					$("#errordiv").html("<p>Sorry! It appears something went wrong, try again!</p>");
 					console.log("bleh");
 				}
 				
@@ -149,8 +134,6 @@ function ajaxCalls(formData){
 						$("#breedD").empty();
 						$("#optionD").empty();
 						var error;
-
-						var petId;
 						
 						var name;
 						var animal;
@@ -170,16 +153,13 @@ function ajaxCalls(formData){
 
 						//if not, then this
 						else{
-							console.log("2nd ajax success!");
-
-							//petIds for the session are put into an array, this will be accessed later when users wish to see which pets they have liked
-							petId = $(xml).find("id").first().text();
 							console.log("counter="+counter);
-							petArray[counter] = petId;
 							counter++;
 							
-							//console.log(petArray);
-
+							if(counter === 24){
+								counter = 0;
+								offset = offset + 25;
+							}
 
 							//displaying info
 							name = $(xml).find("name").first().text();
@@ -275,15 +255,11 @@ function ajaxCalls(formData){
 										holder = "Housetrained";
 										option[optCount] = holder;
 										break;	
-									
-								}
-								
-							}
-							
+								}	
+							}							
 							
 							//need to check if this is empty	
 							description = $(xml).find("description").first().text();
-
 							photo = $(xml).find("photo[size=pn]").first().text();
 							var photosrc;
 							
@@ -291,10 +267,7 @@ function ajaxCalls(formData){
 								photosrc = photo;
 							}
 							
-							//console.log(photosrc);
-							
 							$("#photoD").attr("src", photosrc);
-  
 							$("#nameD").html(name);
 							$("#animalD").html(animal);
 				
@@ -312,13 +285,11 @@ function ajaxCalls(formData){
 									$("#optionD").append("<li>"+option[o]+"</li>");
 							}
 							
-							
-							$("#descriptionD").html(description);
-							
+							$("#descriptionD").html(description);						
 						}
   					
-							//shelter data
-							$.ajax({
+						//shelter data
+						$.ajax({
 								type: "GET",
 								url: "data/shelterdata.xml",
 								dataType: "xml",
@@ -355,37 +326,34 @@ function ajaxCalls(formData){
 									lat = parseFloat(lat);
 									long = parseFloat(long);
 									
-									//geocode the addresses, don't use lat long, they're bullshit
-									
+									//lat long isn't v accurate, imo, but it's what is provided, and more often than not, addresses are PO Boxes, so eh
 									initMap(lat,long);
 								}
 							});
 							
-							
-							//distance data
-							$.ajax({
-								type: "GET",
-								url: "data/distancedata.xml",
-								dataType: "xml",
-								success: function(xml){
-									var distance;
+						//distance data
+						$.ajax({
+							type: "GET",
+							url: "data/distancedata.xml",
+							dataType: "xml",
+							success: function(xml){
+								var distance;
 									
-									distance = $(xml).find("text").eq(1).text();
-						
-									$("#distanceD").html("This animal is "+distance+" away!");
-
-								}
-							});
+								distance = $(xml).find("text").eq(1).text();
+								$("#distanceD").html("This animal is "+distance+" away!");
+							}
+						});
 					}
 				});
-				
-				}
 			}
+		}
 	});					
 }	
 
 function likedPet(){
 	"use strict";
+	
+	//takes info from page, throws it into liked div and tada
 	
 	var likedname = $("#nameD").text();
 		
@@ -424,13 +392,10 @@ function likedPet(){
 	closebtn.innerHTML = "Remove from likes";
 	closebtn.setAttribute("onclick", "this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode);");
 	
-	
 	var PetInfoHTML = document.createElement("div");
-	PetInfoHTML.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'><br><h4>Contact Information</h4><p>"+likedshelter+"</p><p>"+likedemail+"</p><p>"+likedphone+"</p></div>";
+	PetInfoHTML.innerHTML = "<div class='col1'><img class = 'accordionimage' src='"+likedphoto+"'><br><h4>Contact Information</h4><p>"+likedshelter+"</p><p>"+likedaddress+likedcitystate+"</p><p>"+likedemail+"</p><p>"+likedphone+"</p></div>";
 	var PetInfoHTML2 = document.createElement("div");
 	PetInfoHTML2.innerHTML = "<br><br><div class='col2'><p><h4>Animal:</h4> "+likedanimal+"</p><ul><h4>Breed:</h4> "+likedbreed+"</ul><p><h4>Age:</h4> "+likedage+"</p><p><h4>Sex:</h4> "+likedsex+"</p><p><h4>Size:</h4> "+likedsize+"</p><ul><h4>More Info:</h4> "+likedoption+"</ul><p><h4>Description:</h4> "+likeddescription+"</p></div>";
-	
-	/*newAccordionShelterInfo.innerHTML = "<p>Organization: "+likedshelter+"</p><p>Email: "+likedemail+"</p><p>Phone: "+likedphone+"</p>";*/
 	
 	newAccordionPetInfo.appendChild(PetInfoHTML);
 	newAccordionPetInfo.appendChild(closebtn);

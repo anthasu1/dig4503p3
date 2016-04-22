@@ -5,10 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Sheltr</title>
-    
     <link rel="stylesheet" href="css/html5reset.css" media="all">  
     <link rel="stylesheet" href="css/styles.css" media="all"> 
-    
     <!-- Link Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,300,700" rel="stylesheet" type="text/css">
@@ -16,22 +14,18 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script type ="text/javascript" src="js/process.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPvRG3VJQQg8CAaWzodc1Zv7lTuo0CJdQ" async defer></script>
-    
-    
 </head>
 
 <body>
 	<div class="topBar">
     	<h1>Sheltr</h1>
     </div>
-    
 	<div class="menu">
-
         <h2>Dog and Cats for Adoption</h2>
-        <p>Sheltr helps you connect with local pets in Orlando. Save the ones you like and find your 
+        <p>Sheltr helps you connect with local pets in your area. Save the ones you like and find your 
         perfect pet today!</p><br>
-        <h3>Pick your preferences below:</h3><br>
-        
+        <h3>Pick your preferences below:</h3>
+        <br>
         <form method="POST" name="pets" id="pets">
             <label for="location">ZIP Code</label><br>
             <input type="text" id="location" maxlength="5" placeholder="ZIP code"><br><br>
@@ -61,32 +55,23 @@
                 <option value="none">No preference</option>
                 <option value="M">Male</option>
                 <option value="F">Female</option>
-                
-            </select><br><br>
+            </select>
+            <br><br>
             <input type="submit" value="Submit" id="submit"><br><br>
             <button type="submit" name="yesbutton" value="YES" id="yes"><img src="img/yes_button.png" alt="Yes Button" height="50"></button>
-			<button type="submit" name="nobutton" value="NO" id="no"><img src="img/no_button.png" alt="NO Button" height="50"></button>
-            
-        </form><br>
-        
+			<button type="submit" name="nobutton" value="NO" id="no"><img src="img/no_button.png" alt="NO Button" height="50"></button>     
+        </form>
+        <br>
         <button id="hideNseek">Click here to view your liked pets</button>
-        
-        
    		<div id="statement"><p>This is an educational assignment prepared for the UCF SVAD course DIG4503: Rapid App with Dan Novatnak, Spring 2016. Not a commercial product.</p></div>
     </div>
-                <div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
-				<div id="errordiv"></div>
+    <div id="loading"><img src="img/loading.gif" alt="loading gif" height="200" width="600" id="loadinggif"></div>
+	<div id="errordiv"></div>
     <div id="display">
- 
         <div id="animalData"><br>
-               
-            		
              <div class="imageData">
                     <img id="photoD" src="img/invis.gif" alt="Pet Picture">
-            		
                     <div id="contactInfo">
-                    	
-
                         <div id="map"></div><br><br>
                         <div id="distanceDiv"><span id="distanceD"></span></div>
                         <h4>Contact Information</h4>
@@ -94,13 +79,9 @@
                         <div id="shelterAddress"><span id="addressD"></span><span id="citystateD"></span></div>
                         <div id="shelterEmail"><span id="emailD"></span></div>
                         <div id="shelterPhone"><span id="phoneD"></span></div>
-        
                     </div>
-            </div><br>
-
-                    
-            <div class="textData">
-            
+            </div><br>          
+            <div class="textData">          
             	<div id="info">
                     <div id="nameDiv"><span id="nameD"></span></div>
                     <div id="animalDiv"><h4>Animal:</h4> <span id="animalD"></span></div>
@@ -109,20 +90,11 @@
                     <div id="sexDiv"><h4>Sex:</h4> <span id="sexD"></span></div>
                     <div id="sizeDiv"><h4>Size:</h4> <span id="sizeD"></span></div>
                     <div id="optionDiv"><h4>Additional Info:</h4> <ul id="optionD"></ul></div><br><br>
-                    <div id="descriptionDiv"><h4>Description:</h4> <span id="descriptionD"></span></div><br><br>
-                                    
+                    <div id="descriptionDiv"><h4>Description:</h4> <span id="descriptionD"></span></div><br><br>                                   
                 </div>
-            </div>
-                
-                
-    	</div>
-        
-        
+            </div>              
+    	</div>       
         <div id="liked"></div>
-        
     </div>
-    
-    <!-- -->
-    
 </body>
 </html>

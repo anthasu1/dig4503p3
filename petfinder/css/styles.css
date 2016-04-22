@@ -51,7 +51,6 @@ ul{
 	list-style: none;
 }
 
-
 #submit, button{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -61,7 +60,6 @@ ul{
 	border: none;
 	padding: 7px;
 }
-
 
 #loading{
 	margin-top: 100px;
@@ -73,7 +71,11 @@ ul{
 	
 }
 
-#loading img{ width: 60%; max-width: 600px; margin: 0 auto;}
+#loading img{ 
+	width: 60%;
+	max-width: 600px;
+	margin: 0 auto;
+}
 
 #yes{
 	visibility: hidden;
@@ -91,96 +93,122 @@ ul{
 	visibility: hidden;	
 }
 
-#map {  width: 300px;
-		height: 300px;
-		float: left; 
-		margin-top: 10px;
-		margin-bottom: 10px;
-		}
+#map{
+	width: 300px;
+	height: 300px;
+	float: left; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
-.topBar{ width: 100%;
-		 padding: 8px 0px;
-		 
-		 background-color: #50c5b7;}
+.topBar{
+	width: 100%;
+	padding: 8px 0px;
+	background-color: #50c5b7;
+}
 
-.menu{ height: 100%; 
-	   width: 25%; 
-       float: left; 
-	   padding: 2%;
-	   background-color: rgba(80,197,183,0.7);
-	   color: #FFFFFF;
-	   }
+.menu{
+	height: 100%; 
+	width: 25%; 
+	float: left; 
+	padding: 2%;
+	background-color: rgba(80,197,183,0.7);
+	color: #FFFFFF;
+}
 	   
+#photoD{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
 
-#photoD { display: block; width: 300px; margin: 0 auto; }
+#display{
+	width: 71%;
+	float: left;
+}
 
-#display { width: 71%; float: left;}
-
-#animalData { width: 100%;
-				display: none; }
+#animalData{
+	width: 100%;
+	display: none;
+}
 			
 #nameD{
-		font-family: 'Nunito', sans-serif;
-		font-size: 24px;
-		color: #533a71;
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	color: #533a71;
 }
 		
-.imageData{ width: 50%; float: left; min-width: 300px;}	
+.imageData{
+	width: 50%;
+	float: left;
+	min-width: 300px;
+}	
 
-.textData{ float: left; width: 50%; min-width: 300px;}
-
-			
-#info { 
-		display: block;
-		width: 80%;
-		margin: 0 auto;	
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 300;
+.textData{
+	float: left;
+	width: 50%;
+	min-width: 300px;
+}
+		
+#info{ 
+	display: block;
+	width: 80%;
+	margin: 0 auto;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
  
 #contactInfo{
-		display: block;
-		width: 300px;
-		margin: 0 auto;	
-		font-family: 'Open Sans', sans-serif;
-		font-weight: 300;
-		margin-top: 10px;
-		margin-bottom: 10px;
+	display: block;
+	width: 300px;
+	margin: 0 auto;	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
  
- 
-#liked { display: none; 
-         width: 100%; 
-	     float: right;
-		 font-family: 'Open Sans', sans-serif;
-		 font-weight: 300;
-	}
+#liked{
+	display: none; 
+	width: 100%; 
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
 	
-	#nameDiv{
-		padding-bottom: 20px;	
-	}
+#nameDiv{
+	padding-bottom: 20px;	
+}
 	
-	#optionDiv{
-		padding-top: 30px;	
-	}
+#optionDiv{
+	padding-top: 30px;	
+}
 	
-	#distanceDiv{
-		padding-bottom: 10px;	
-	}
+#distanceDiv{
+	padding-bottom: 10px;	
+}
 	
-	#statement{
-		padding-top: 30px;
-    	font-size: 14px;	
-		width: 100%;
-	}
+#statement{
+	padding-top: 30px;
+    font-size: 14px;	
+	width: 100%;
+}
 	
-.col1{ width: 40%; float: left; font-family: 'Open Sans', sans-serif;
-		 font-weight: 300;}
-.col2{ width: 50%; float: left; font-family: 'Open Sans', sans-serif;
-		 font-weight: 300;}
+.col1{
+	width: 40%; 
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.col2{
+	width: 50%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
 
 @media screen and (max-width: 600px) {
-	
 	 #display{ width: 100%; }
 
 	.imageData{ width: 100%; }
@@ -198,13 +226,12 @@ ul{
 	.col1{ width: 100%; }
 	
 	.col2{ width: 100%; }
-	
-	}
+}
 
 
-/* Accordian stuff */
+/* Accordion stuff */
 
-div.accordion {
+div.accordion{
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -217,13 +244,12 @@ div.accordion {
     transition: 0.4s;
 }
 
-div.accordion.active, div.accordion:hover {
+div.accordion.active, div.accordion:hover{
     background-color: #ddd; 
 }
 
-div.panel {
+div.panel{
     padding: 0 18px;
-    /* background-color: white; */
     max-height: 0;
     overflow: hidden;
     transition: 0.6s ease-in-out;
@@ -232,12 +258,12 @@ div.panel {
     margin-bottom: 10px;
 }
 
-div.panel.show {
+div.panel.show{
     opacity: 1;
     max-height: 1000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
 }
 
-div.accordion:after {
+div.accordion:after{
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
@@ -245,7 +271,7 @@ div.accordion:after {
     margin-left: 5px;
 }
 
-div.accordion.active:after {
+div.accordion.active:after{
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
